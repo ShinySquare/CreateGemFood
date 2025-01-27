@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "creategemfood:block/sapphire_block",
+    "side": "creategemfood:block/sapphire_block",
+    "top": "creategemfood:block/sapphire_block"
+  }
+}

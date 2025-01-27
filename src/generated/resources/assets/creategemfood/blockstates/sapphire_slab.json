@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "creategemfood:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "creategemfood:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "creategemfood:block/sapphire_slab_top"
+    }
+  }
+}

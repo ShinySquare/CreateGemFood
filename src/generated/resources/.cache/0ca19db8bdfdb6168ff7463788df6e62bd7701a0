@@ -1,0 +1,11 @@
+// 1.20.1	2025-01-21T14:56:15.922796	Tags for minecraft:block mod id creategemfood
+e91d3cc78684a778f359353e01e0dd686141148d data/creategemfood/tags/blocks/metal_detector_valuables.json
+a1eb08802ebafdcb9a80a4a1f069550d61cbbda3 data/creategemfood/tags/blocks/needs_sapphire_tool.json
+86ae6aeceb334017d3e7535d94b75701bf194c4c data/forge/tags/blocks/needs_netherite_tool.json
+b83083ea5ba47dc5f9a4a79a36803f7fbae72ce9 data/minecraft/tags/blocks/fence_gates.json
+4b2af58229628266c2e24a1fd42aee38667a54a2 data/minecraft/tags/blocks/fences.json
+d1f5ceeca1b4c729c80b2b590660c15efd9ad46c data/minecraft/tags/blocks/mineable/pickaxe.json
+4f424b35209606160110449705317a75462aaf42 data/minecraft/tags/blocks/needs_diamond_tool.json
+224842e9f15a5824a1cf9fa09f68dd5fb3becb68 data/minecraft/tags/blocks/needs_iron_tool.json
+a967ff35578311c3723ec33a274d150a7f57ab4c data/minecraft/tags/blocks/needs_stone_tool.json
+d4bdc76a51aeea4174498a6cb7dc2b2552a89b50 data/minecraft/tags/blocks/walls.json
