@@ -1,0 +1,12 @@
+{
+  "name": "",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 2,
+    "element": {
+
+    },
+
+  }
+  ]
+}
