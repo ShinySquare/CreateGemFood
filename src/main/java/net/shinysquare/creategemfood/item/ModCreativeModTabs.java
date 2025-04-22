@@ -86,6 +86,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.TOMATO.get());
                         pOutput.accept(ModItems.TOMATO_SAUCE_NOT_KETCHUP.get());
                         pOutput.accept(ModItems.APPLE_JUICE_BOX.get());
+                        pOutput.accept(ModItems.HALF_BREAD.get());
 
                     })
                     .build());

@@ -15,5 +15,8 @@ public class ModFoods {
             .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 10), 0.1f).build();
     public static final FoodProperties APPLE_JUICE_BOX = new FoodProperties.Builder().nutrition(100).fast()
             .saturationMod(0.8f).build();
+    public static final FoodProperties HALF_BREAD = new FoodProperties.Builder().nutrition(2).fast()
+            .saturationMod(0.8f).build();
+
 }
 
