@@ -40,6 +40,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.TOMATO_SAUCE_NOT_KETCHUP)));
     public static final RegistryObject<Item> APPLE_JUICE_BOX = ITEMS.register("apple_juice_box" ,
             () -> new Item(new Item.Properties().food(ModFoods.APPLE_JUICE_BOX).stacksTo(1)));
+    public static final RegistryObject<Item> HALF_BREAD = ITEMS.register("half_bread" ,
+            () -> new Item(new Item.Properties().food(ModFoods.HALF_BREAD).stacksTo(128)));
+
 
     public static final RegistryObject<Item> BIOFUEL = ITEMS.register("biofuel",
             () -> new Item(new Item.Properties().stacksTo(16)));
