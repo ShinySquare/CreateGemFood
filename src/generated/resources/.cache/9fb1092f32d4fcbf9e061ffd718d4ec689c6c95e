@@ -1,5 +1,6 @@
-// 1.20.1	2025-04-22T18:42:02.973864	Recipes
+// 1.20.1	2025-04-23T14:07:23.171605	Recipes
 0e201d45f836125fd13c6face48820a797f00eeb data/creategemfood/advancements/recipes/food/half_bread.json
+038f2106fe6464996a952e26f8a507255554c7f9 data/creategemfood/advancements/recipes/food/wood_knife.json
 2029fa4687cfd21e709f44d69ca8c04745f74b0b data/creategemfood/advancements/recipes/misc/sapphire.json
 9a9c913f5010e3ba9c34a6b31c43947fff007952 data/creategemfood/advancements/recipes/misc/sapphire_block.json
 2f3efa78f07a6c9fe34dbb4523aa0e61fff39634 data/creategemfood/advancements/recipes/misc/sapphire_from_blasting_deepslate_sapphire_ore.json
@@ -25,3 +26,4 @@ d42ad68353aab865125ada2df1107aa3dce1fdeb data/creategemfood/recipes/sapphire_fro
 2dcfa99729da5940f3e2ca2c00a80897a3ac6db3 data/creategemfood/recipes/sapphire_from_smelting_nether_sapphire_ore.json
 f052b43658f6ae8f6463379ef4ab900b45056731 data/creategemfood/recipes/sapphire_from_smelting_raw_sapphire.json
 13463484e9224d53159bb29716d890bc513709a3 data/creategemfood/recipes/sapphire_from_smelting_sapphire_ore.json
+d4746cbc91698a104a1f197fa342b2184cabf561 data/creategemfood/recipes/wood_knife.json
