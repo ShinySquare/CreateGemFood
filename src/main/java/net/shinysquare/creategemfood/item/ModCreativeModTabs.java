@@ -102,6 +102,13 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.WOODEN_KNIFE.get());
+                        pOutput.accept(ModItems.AMETHYST_SWORD.get());
+                        pOutput.accept(ModItems.AMETHYST_AXE.get());
+                        pOutput.accept(ModItems.AMETHYST_SHOVEL.get());
+                        pOutput.accept(ModItems.AMETHYST_HOE.get());
+                        pOutput.accept(ModItems.AMETHYST_PICKAXE.get());
+                        pOutput.accept(ModItems.AMETHYST_KNIFE.get());
+                        pOutput.accept(ModItems.AMETHYST_WHISK.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

@@ -60,6 +60,20 @@ public class ModItems {
             () -> new ShovelItem(net.shinysquare.creategemfood.item.ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
             () -> new HoeItem(net.shinysquare.creategemfood.item.ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
+            () -> new SwordItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe",
+            () -> new PickaxeItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe",
+            () -> new AxeItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 7, 1, new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel",
+            () -> new ShovelItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
+            () -> new HoeItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_KNIFE = ITEMS.register("amethyst_knife",
+            () -> new SwordItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_WHISK = ITEMS.register("amethyst_whisk",
+            () -> new ShovelItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 1, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> FLAWED_RUBY = ITEMS.register("flawed_ruby",
             FLAWEDGEMSTONEItem::new);

@@ -13,6 +13,7 @@ public class ModTags {
         public static final TagKey<Block> METAL_DETECTOR_VALUABLES = tag("metal_detector_valuables");
         public static final TagKey<Block> NEEDS_SAPPHIRE_TOOL = tag("needs_sapphire_tool");
         public static final TagKey<Block> BKPWR_7 = tag("bkpwr_7");
+        public static final TagKey<Block> NEEDS_AMETHYST_TOOL = tag("needs_sapphire_tool");
 
 
 

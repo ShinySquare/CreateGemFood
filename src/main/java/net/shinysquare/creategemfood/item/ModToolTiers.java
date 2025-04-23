@@ -1,5 +1,7 @@
 package net.shinysquare.creategemfood.item;
 
+import com.simibubi.create.Create;
+import net.minecraft.world.item.Items;
 import net.shinysquare.creategemfood.CreateGemFood;
 import net.shinysquare.creategemfood.util.ModTags;
 import net.minecraft.resources.ResourceLocation;
@@ -20,5 +22,9 @@ public class ModToolTiers {
             new ForgeTier(7, 3000, 7f, 5f, 25,
                     ModTags.Blocks.BKPWR_7, () -> Ingredient.of(ModItems.FINE_RUBY.get())),
             new ResourceLocation(CreateGemFood.MOD_ID, "biofuel"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier AMETHYST = TierSortingRegistry.registerTier(
+            new ForgeTier(7, 2048, 6f, 5f, 30,
+                    ModTags.Blocks.NEEDS_AMETHYST_TOOL, () -> Ingredient.of(Items.AMETHYST_SHARD)),
+            new ResourceLocation(CreateGemFood.MOD_ID, "amethyst"), List.of(Tiers.NETHERITE), List.of());
 
 }
