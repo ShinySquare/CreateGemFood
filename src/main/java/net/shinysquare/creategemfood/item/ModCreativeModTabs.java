@@ -101,6 +101,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
                         pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.WOODEN_KNIFE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

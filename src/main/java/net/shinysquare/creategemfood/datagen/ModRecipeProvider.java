@@ -52,6 +52,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.BREAD)
                 .unlockedBy("has_bread", has(Items.BREAD))
                 .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.WOODEN_KNIFE.get(), 1)
+                .requires(Items.STICK)
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
