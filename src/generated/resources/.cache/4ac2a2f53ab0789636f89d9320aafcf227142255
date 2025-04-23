@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-22T10:23:51.640023	Item Models: creategemfood
+// 1.20.1	2025-04-22T18:15:14.968281	Item Models: creategemfood
 39507fbbb098150903bb37aa4bc32a1ad1353246 assets/creategemfood/models/item/biofuel.json
 80e010fcc31d252a58f044cb56faf085fc005d04 assets/creategemfood/models/item/fine_jade.json
 0ef4e05e64548c5b68eeb3fbc3090fb047d259be assets/creategemfood/models/item/fine_ruby.json
@@ -12,6 +12,7 @@ e6369d2ab09a0c8c2f75cbe4fc1d59c8d4806cfe assets/creategemfood/models/item/flawle
 28cad9f8908afb9eea3f71a797e792cd7c434586 assets/creategemfood/models/item/flawless_ruby.json
 7853de4eadaa2b33d00d1e214de2f742875f9987 assets/creategemfood/models/item/flawless_sapphire.json
 42be6ee5c84e175928870fc7e5e76eab1c594aa0 assets/creategemfood/models/item/flawless_topaz.json
+79d136ab68286e3f1251ba0ca2271a448daab003 assets/creategemfood/models/item/half_bread.json
 b5ae3bca8e564ba6972c781e692d44c13b961357 assets/creategemfood/models/item/mango.json
 411bcc64185d5fe630b9b434f2aec7abb53a13ad assets/creategemfood/models/item/metal_detector.json
 5fbdce8e9880901c7a9a68185af02ae474c158c1 assets/creategemfood/models/item/perfect_jade.json
@@ -42,3 +43,4 @@ c6aa7fd1bad9211cc78c378b5387bf330daf23c3 assets/creategemfood/models/item/sapphi
 c8841224470a59b0ebec284bba43f46f505663cf assets/creategemfood/models/item/strawberry.json
 0b8acfc977bde1929f4a142544174c11954a0ca3 assets/creategemfood/models/item/tomato.json
 f5a71dbd904622047655181d9ab2d6db8ef276c6 assets/creategemfood/models/item/tsnk.json
+5816fd24283e4f74151766858c41fc32e97fc232 assets/creategemfood/models/item/wood_knife.json

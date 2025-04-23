@@ -44,9 +44,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.SAPPHIRE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
                 .save(pWriter);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.HALF_BREAD.get(), 2)
-                .requires(ModItems.WOODEN_KNIFE.get())
-                .requires(Items.BREAD)
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.HALF_BREAD.get(), 2)
+                .pattern("   ")
+                .pattern("KB ")
+                .pattern("   ")
+                .define('K', ModItems.WOODEN_KNIFE.get())
+                .define('B', Items.BREAD)
+                .unlockedBy("has_bread", has(Items.BREAD))
                 .save(pWriter);
     }
 
