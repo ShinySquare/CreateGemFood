@@ -42,6 +42,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.APPLE_JUICE_BOX).stacksTo(1)));
     public static final RegistryObject<Item> HALF_BREAD = ITEMS.register("half_bread" ,
             () -> new Item(new Item.Properties().food(ModFoods.HALF_BREAD).stacksTo(128)));
+    public static final RegistryObject<Item> RAW_GROUND_BEEF = ITEMS.register("raw_ground_beef" ,
+            () -> new Item(new Item.Properties().food(ModFoods.RAW_GROUND_BEEF).stacksTo(16)));
     public static final RegistryObject<Item> WOODEN_KNIFE = ITEMS.register("wood_knife" ,
             WoodenKnifeItem::new);
 
