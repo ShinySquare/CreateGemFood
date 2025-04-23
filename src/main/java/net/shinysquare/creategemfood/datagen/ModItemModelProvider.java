@@ -78,6 +78,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.SAPPHIRE_AXE);
         handheldItem(ModItems.SAPPHIRE_SHOVEL);
         handheldItem(ModItems.SAPPHIRE_HOE);
+        handheldItem(ModItems.AMETHYST_SWORD);
+        handheldItem(ModItems.AMETHYST_PICKAXE);
+        handheldItem(ModItems.AMETHYST_AXE);
+        handheldItem(ModItems.AMETHYST_SHOVEL);
+        handheldItem(ModItems.AMETHYST_HOE);
+        handheldItem(ModItems.AMETHYST_KNIFE);
+        handheldItem(ModItems.AMETHYST_WHISK);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
