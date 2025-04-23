@@ -30,6 +30,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.FINE_SAPPHIRE);
         simpleItem(ModItems.FLAWLESS_SAPPHIRE);
         simpleItem(ModItems.PERFECT_SAPPHIRE);
+        simpleItem(ModItems.HALF_BREAD);
+        simpleItem(ModItems.WOODEN_KNIFE);
 
         simpleItem(ModItems.ROUGH_RUBY);
         simpleItem(ModItems.FLAWED_RUBY);
