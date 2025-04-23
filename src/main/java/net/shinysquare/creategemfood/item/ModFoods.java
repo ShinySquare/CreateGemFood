@@ -18,5 +18,6 @@ public class ModFoods {
     public static final FoodProperties HALF_BREAD = new FoodProperties.Builder().nutrition(2).fast()
             .saturationMod(0.8f).build();
 
+
 }
 
