@@ -15,12 +15,15 @@ public class ModTags {
         public static final TagKey<Block> BKPWR_7 = tag("bkpwr_7");
 
 
+
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(CreateGemFood.MOD_ID, name));
         }
     }
 
     public static class Items {
+        public static final TagKey<Item> CUTTING_TOOL = ItemTags.create(new ResourceLocation(CreateGemFood.MOD_ID, "cut_tool"));
+
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(CreateGemFood.MOD_ID, name));
         }

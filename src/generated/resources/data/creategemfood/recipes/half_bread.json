@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "K": {
+      "item": "creategemfood:wood_knife"
+    }
+  },
+  "pattern": [
+    "   ",
+    "KB ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "creategemfood:half_bread"
+  },
+  "show_notification": true
+}
