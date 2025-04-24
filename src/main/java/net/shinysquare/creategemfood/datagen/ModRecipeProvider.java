@@ -131,6 +131,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.STICK)
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_ROD.get(), 1)
+                .pattern(" A ")
+                .pattern(" I ")
+                .pattern(" D ")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('D', Items.ECHO_SHARD)
+                .define('I', Items.IRON_INGOT);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
