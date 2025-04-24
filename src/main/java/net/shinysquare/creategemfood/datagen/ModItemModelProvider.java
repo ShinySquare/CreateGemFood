@@ -86,6 +86,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.AMETHYST_KNIFE);
         handheldItem(ModItems.AMETHYST_WHISK);
         simpleItem(ModItems.RAW_GROUND_BEEF);
+        simpleItem(ModItems.IRON_ROD);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
