@@ -52,7 +52,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AR ")
                 .pattern(" R ")
                 .define('A', Items.AMETHYST_SHARD)
-                .define('D', Items.DIAMOND)
+                .define('D', Items.ECHO_SHARD)
                 .define('R', ModItems.IRON_ROD.get())
                 .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
                 .save(pWriter);
@@ -61,7 +61,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" R ")
                 .pattern(" R ")
                 .define('A', Items.AMETHYST_SHARD)
-                .define('D', Items.DIAMOND)
+                .define('D', Items.ECHO_SHARD)
                 .define('R', ModItems.IRON_ROD.get())
                 .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
                 .save(pWriter);
@@ -70,7 +70,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" D ")
                 .pattern(" R ")
                 .define('A', Items.AMETHYST_SHARD)
-                .define('D', Items.DIAMOND)
+                .define('D', Items.ECHO_SHARD)
                 .define('R', ModItems.IRON_ROD.get())
                 .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
                 .save(pWriter);
@@ -79,7 +79,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" R ")
                 .pattern(" R ")
                 .define('A', Items.AMETHYST_SHARD)
-                .define('D', Items.DIAMOND)
+                .define('D', Items.ECHO_SHARD)
                 .define('R', ModItems.IRON_ROD.get())
                 .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
                 .save(pWriter);
@@ -88,7 +88,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" D ")
                 .pattern("  R")
                 .define('A', Items.AMETHYST_SHARD)
-                .define('D', Items.DIAMOND)
+                .define('D', Items.ECHO_SHARD)
                 .define('R', ModItems.IRON_ROD.get())
                 .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
                 .save(pWriter);
@@ -97,7 +97,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" D ")
                 .pattern(" R ")
                 .define('A', Items.AMETHYST_SHARD)
-                .define('D', Items.DIAMOND)
+                .define('D', Items.ECHO_SHARD)
                 .define('R', ModItems.IRON_ROD.get())
                 .define('W', AllItems.WHISK)
                 .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
