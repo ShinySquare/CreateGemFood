@@ -30,6 +30,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         , Items.IRON_SWORD
                         , Items.STONE_SWORD
                         , Items.WOODEN_SWORD
-                        , ModItems.WOODEN_KNIFE.get());
+                        , ModItems.WOODEN_KNIFE.get()
+                        , ModItems.AMETHYST_KNIFE.get());
     }
 }

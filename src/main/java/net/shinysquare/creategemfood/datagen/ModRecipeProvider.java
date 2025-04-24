@@ -1,5 +1,6 @@
 package net.shinysquare.creategemfood.datagen;
 
+import com.simibubi.create.AllItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
@@ -11,6 +12,7 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.shinysquare.creategemfood.CreateGemFood;
 import net.shinysquare.creategemfood.block.ModBlocks;
 import net.shinysquare.creategemfood.item.ModItems;
+import net.shinysquare.creategemfood.util.ModTags;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -36,7 +38,70 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', ModItems.SAPPHIRE.get())
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
-
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_SWORD.get())
+                .pattern(" A ")
+                .pattern(" D ")
+                .pattern(" R ")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('D', Items.DIAMOND)
+                .define('R', ModItems.IRON_ROD.get())
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_AXE.get())
+                .pattern("AD ")
+                .pattern("AR ")
+                .pattern(" R ")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('D', Items.DIAMOND)
+                .define('R', ModItems.IRON_ROD.get())
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_PICKAXE.get())
+                .pattern("ADA")
+                .pattern(" R ")
+                .pattern(" R ")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('D', Items.DIAMOND)
+                .define('R', ModItems.IRON_ROD.get())
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" D ")
+                .pattern(" R ")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('D', Items.DIAMOND)
+                .define('R', ModItems.IRON_ROD.get())
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_HOE.get())
+                .pattern("AD ")
+                .pattern(" R ")
+                .pattern(" R ")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('D', Items.DIAMOND)
+                .define('R', ModItems.IRON_ROD.get())
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_KNIFE.get())
+                .pattern("A  ")
+                .pattern(" D ")
+                .pattern("  R")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('D', Items.DIAMOND)
+                .define('R', ModItems.IRON_ROD.get())
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.AMETHYST_WHISK.get())
+                .pattern("AWA")
+                .pattern(" D ")
+                .pattern(" R ")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('D', Items.DIAMOND)
+                .define('R', ModItems.IRON_ROD.get())
+                .define('W', AllItems.WHISK)
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(pWriter);
 
 
 
@@ -48,10 +113,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("   ")
                 .pattern("KB ")
                 .pattern("   ")
-                .define('K', ModItems.WOODEN_KNIFE.get())
+                .define('K', ModTags.Items.CUTTING_TOOL)
                 .define('B', Items.BREAD)
                 .unlockedBy("has_bread", has(Items.BREAD))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.RAW_GROUND_BEEF.get())
+                .pattern("   ")
+                .pattern("KBW")
+                .pattern("   ")
+                .define('K', ModTags.Items.CUTTING_TOOL)
+                .define('B', Items.BEEF)
+                .define('W', ModItems.AMETHYST_WHISK.get())
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(pWriter);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.WOODEN_KNIFE.get(), 1)
                 .requires(Items.STICK)
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))

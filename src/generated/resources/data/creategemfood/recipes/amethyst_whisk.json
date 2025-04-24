@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "creategemfood:iron_rod"
+    },
+    "W": {
+      "item": "create:whisk"
+    }
+  },
+  "pattern": [
+    "AWA",
+    " D ",
+    " R "
+  ],
+  "result": {
+    "item": "creategemfood:amethyst_whisk"
+  },
+  "show_notification": true
+}

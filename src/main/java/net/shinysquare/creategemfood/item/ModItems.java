@@ -51,6 +51,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> BIOFUEL = ITEMS.register("biofuel",
             () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod",
+            () -> new Item(new Item.Properties().stacksTo(64)));
 
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(net.shinysquare.creategemfood.item.ModToolTiers.SAPPHIRE, 4, 2, new Item.Properties()));
@@ -73,7 +75,7 @@ public class ModItems {
     public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
             () -> new HoeItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_KNIFE = ITEMS.register("amethyst_knife",
-            () -> new SwordItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 4, 2, new Item.Properties()));
+            WoodenKnifeItem::new);
     public static final RegistryObject<Item> AMETHYST_WHISK = ITEMS.register("amethyst_whisk",
             () -> new ShovelItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 1, 0, new Item.Properties()));
 

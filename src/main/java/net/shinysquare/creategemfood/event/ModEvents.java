@@ -9,14 +9,55 @@ import net.shinysquare.creategemfood.item.ModItems;
 
 public class ModEvents {
     @SubscribeEvent
-    public void onCakeCrafted(PlayerEvent.ItemCraftedEvent event) {
+    public void onBreadCrafted(PlayerEvent.ItemCraftedEvent event) {
         if (event.getCrafting().getItem() == ModItems.HALF_BREAD.get()) {
             // Explicit cast to CraftingContainer
             CraftingContainer grid = (CraftingContainer) event.getInventory();
-
             for (int i = 0; i < grid.getContainerSize(); i++) {
                 ItemStack stack = grid.getItem(i);
                 if (stack.getItem() == ModItems.WOODEN_KNIFE.get()) {
+                    // Get the damaged version (handled by WoodenKnifeItem)
+                    ItemStack remainingItem = stack.getCraftingRemainingItem();
+
+                    // Update the slot (will be empty if knife broke)
+                    grid.setItem(i, remainingItem);
+
+                    // Optional: Force-sync the slot change to client
+                    if (event.getEntity() != null) {
+                        event.getEntity().containerMenu.broadcastChanges();
+                    }
+                }
+            }
+        }
+    }
+    public void onGrBeCrWNK(PlayerEvent.ItemCraftedEvent event) {
+        if (event.getCrafting().getItem() == ModItems.RAW_GROUND_BEEF.get()) {
+            // Explicit cast to CraftingContainer
+            CraftingContainer grid = (CraftingContainer) event.getInventory();
+            for (int i = 0; i < grid.getContainerSize(); i++) {
+                ItemStack stack = grid.getItem(i);
+                if (stack.getItem() == ModItems.WOODEN_KNIFE.get()) {
+                    // Get the damaged version (handled by WoodenKnifeItem)
+                    ItemStack remainingItem = stack.getCraftingRemainingItem();
+
+                    // Update the slot (will be empty if knife broke)
+                    grid.setItem(i, remainingItem);
+
+                    // Optional: Force-sync the slot change to client
+                    if (event.getEntity() != null) {
+                        event.getEntity().containerMenu.broadcastChanges();
+                    }
+                }
+            }
+        }
+    }
+    public void onGrBeCrWAK(PlayerEvent.ItemCraftedEvent event) {
+        if (event.getCrafting().getItem() == ModItems.RAW_GROUND_BEEF.get()) {
+            // Explicit cast to CraftingContainer
+            CraftingContainer grid = (CraftingContainer) event.getInventory();
+            for (int i = 0; i < grid.getContainerSize(); i++) {
+                ItemStack stack = grid.getItem(i);
+                if (stack.getItem() == ModItems.AMETHYST_KNIFE.get()) {
                     // Get the damaged version (handled by WoodenKnifeItem)
                     ItemStack remainingItem = stack.getCraftingRemainingItem();
 

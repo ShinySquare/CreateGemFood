@@ -110,6 +110,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.AMETHYST_PICKAXE.get());
                         pOutput.accept(ModItems.AMETHYST_KNIFE.get());
                         pOutput.accept(ModItems.AMETHYST_WHISK.get());
+                        pOutput.accept(ModItems.IRON_ROD.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

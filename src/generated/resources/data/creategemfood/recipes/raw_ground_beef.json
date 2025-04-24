@@ -3,20 +3,22 @@
   "category": "misc",
   "key": {
     "B": {
-      "item": "minecraft:bread"
+      "item": "minecraft:beef"
     },
     "K": {
       "tag": "creategemfood:cut_tool"
+    },
+    "W": {
+      "item": "creategemfood:amethyst_whisk"
     }
   },
   "pattern": [
     "   ",
-    "KB ",
+    "KBW",
     "   "
   ],
   "result": {
-    "count": 2,
-    "item": "creategemfood:half_bread"
+    "item": "creategemfood:raw_ground_beef"
   },
   "show_notification": true
 }
