@@ -21,6 +21,7 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(event.includeServer(), new net.shinysquare.creategemfood.datagen.ModRecipeProvider(packOutput));
+        generator.addProvider(event.includeServer(), new net.shinysquare.creategemfood.datagen.MixingRecipeProvider(packOutput));
         generator.addProvider(event.includeServer(), net.shinysquare.creategemfood.datagen.ModLootTableProvider.create(packOutput));
 
         generator.addProvider(event.includeClient(), new net.shinysquare.creategemfood.datagen.ModBlockStateProvider(packOutput, existingFileHelper));

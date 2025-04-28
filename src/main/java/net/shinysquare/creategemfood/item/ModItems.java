@@ -75,9 +75,29 @@ public class ModItems {
     public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
             () -> new HoeItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_KNIFE = ITEMS.register("amethyst_knife",
-            WoodenKnifeItem::new);
+            AmethystKnifeItem::new);
     public static final RegistryObject<Item> AMETHYST_WHISK = ITEMS.register("amethyst_whisk",
-            () -> new ShovelItem(net.shinysquare.creategemfood.item.ModToolTiers.AMETHYST, 1, 0, new Item.Properties()));
+            AmethystKnifeItem::new);
+    public static final RegistryObject<Item> STONE_WHISK = ITEMS.register("stone_whisk",
+            StoneWhiskItem::new);
+    public static final RegistryObject<Item> IRON_WHISK = ITEMS.register("iron_whisk",
+            IronWhiskItem::new);
+    public static final RegistryObject<Item> GOLD_WHISK = ITEMS.register("gold_whisk",
+            GoldWhiskItem::new);
+    public static final RegistryObject<Item> DIAMOND_WHISK = ITEMS.register("diamond_whisk",
+            DiamondWhiskItem::new);
+    public static final RegistryObject<Item> NETHERITE_WHISK = ITEMS.register("netherite_whisk",
+            NetheriteWhiskItem::new);
+    public static final RegistryObject<Item> STONE_WHISKP = ITEMS.register("stone_whiskp",
+            StoneWhiskItem::new);
+    public static final RegistryObject<Item> IRON_WHISKP = ITEMS.register("iron_whiskp",
+            IronWhiskItem::new);
+    public static final RegistryObject<Item> GOLD_WHISKP = ITEMS.register("gold_whiskp",
+            GoldWhiskItem::new);
+    public static final RegistryObject<Item> DIAMOND_WHISKP = ITEMS.register("diamond_whiskp",
+            DiamondWhiskItem::new);
+    public static final RegistryObject<Item> NETHERITE_WHISKP = ITEMS.register("netherite_whiskp",
+            NetheriteWhiskItem::new);
 
     public static final RegistryObject<Item> FLAWED_RUBY = ITEMS.register("flawed_ruby",
             FLAWEDGEMSTONEItem::new);

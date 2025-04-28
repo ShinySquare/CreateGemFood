@@ -65,7 +65,6 @@
   "creativetab.mo": "More Ores",
   "creativetab.mf": "More Foods",
   "creativetab.mt": "More Tools",
-  "tooltip.creategemfood.metal_detector.tooltip": "Finds Valuables Underground!",
   "item.creategemfood.mango": "Mango",
   "item.creategemfood.apple_juice_box": "Apple juice box",
   "item.creategemfood.biofuel": "Biofuel",
@@ -79,5 +78,15 @@
   "item.creategemfood.amethyst_knife": "Amethyst Knife",
   "item.creategemfood.amethyst_whisk": "Amethyst Whisk",
   "item.creategemfood.iron_rod": "Iron Rod",
-  "item.creategemfood.raw_ground_beef": "Ground Beef"
+  "item.creategemfood.raw_ground_beef": "Ground Beef",
+  "item.creategemfood.stone_whisk": "Stone Whisk",
+  "item.creategemfood.iron_whisk": "Iron Whisk",
+  "item.creategemfood.gold_whisk": "Gold Whisk",
+  "item.creategemfood.diamond_whisk": "Diamond Whisk",
+  "item.creategemfood.netherite_whisk": "Netherite Whisk",
+  "item.creategemfood.stone_whiskp": "Stone Whisk Part",
+  "item.creategemfood.iron_whiskp": "Iron Whisk Part",
+  "item.creategemfood.gold_whiskp": "Gold Whisk Part",
+  "item.creategemfood.diamond_whiskp": "Diamond Whisk Part",
+  "item.creategemfood.netherite_whiskp": "Netherite Whisk Part"
 }
