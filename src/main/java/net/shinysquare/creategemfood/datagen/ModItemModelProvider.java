@@ -90,6 +90,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ECHO_CORE);
         simpleItem(ModItems.INCOMPLETE_ECHO_CORE);
         simpleItem(ModItems.SHADOW_STEEL_SHEET);
+        simpleItem(ModItems.BEEF_PATTY);
 
     }
 
