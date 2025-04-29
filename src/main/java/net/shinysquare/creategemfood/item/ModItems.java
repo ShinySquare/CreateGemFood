@@ -18,24 +18,18 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
-
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
-
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
             () -> new Item(new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
             () -> new FuelItem(new Item.Properties(), 400));
-
     public static final RegistryObject<Item> MANGO = ITEMS.register("mango",
             () -> new Item(new Item.Properties().food(ModFoods.MANGO)));
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
             () -> new Item(new Item.Properties().food(ModFoods.TOMATO)));
-
     public static final RegistryObject<Item> TOMATO_SAUCE_NOT_KETCHUP = ITEMS.register("tsnk",
             () -> new Item(new Item.Properties().food(ModFoods.TOMATO_SAUCE_NOT_KETCHUP)));
     public static final RegistryObject<Item> APPLE_JUICE_BOX = ITEMS.register("apple_juice_box" ,
@@ -46,14 +40,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.RAW_GROUND_BEEF).stacksTo(16)));
     public static final RegistryObject<Item> WOODEN_KNIFE = ITEMS.register("wood_knife" ,
             WoodenKnifeItem::new);
-
-
-
     public static final RegistryObject<Item> BIOFUEL = ITEMS.register("biofuel",
             () -> new Item(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod",
             () -> new Item(new Item.Properties().stacksTo(64)));
-
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(net.shinysquare.creategemfood.item.ModToolTiers.SAPPHIRE, 4, 2, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
@@ -116,7 +106,6 @@ public class ModItems {
             FLAWLESSGEMSTONEItem::new);
     public static final RegistryObject<Item> PERFECT_RUBY = ITEMS.register("perfect_ruby",
             PERFECTGEMSTONEItem::new);
-
     public static final RegistryObject<Item> FLAWED_SAPPHIRE = ITEMS.register("flawed_sapphire",
             FLAWEDGEMSTONEItem::new);
     public static final RegistryObject<Item> ROUGH_SAPPHIRE = ITEMS.register("rough_sapphire",
@@ -127,7 +116,6 @@ public class ModItems {
             FLAWLESSGEMSTONEItem::new);
     public static final RegistryObject<Item> PERFECT_SAPPHIRE = ITEMS.register("perfect_sapphire",
             PERFECTGEMSTONEItem::new);
-
     public static final RegistryObject<Item> FLAWED_TOPAZ = ITEMS.register("flawed_topaz",
             FLAWEDGEMSTONEItem::new);
     public static final RegistryObject<Item> ROUGH_TOPAZ = ITEMS.register("rough_topaz",
@@ -138,7 +126,6 @@ public class ModItems {
             FLAWLESSGEMSTONEItem::new);
     public static final RegistryObject<Item> PERFECT_TOPAZ = ITEMS.register("perfect_topaz",
             PERFECTGEMSTONEItem::new);
-
     public static final RegistryObject<Item> FLAWED_JADE = ITEMS.register("flawed_jade",
             FLAWEDGEMSTONEItem::new);
     public static final RegistryObject<Item> ROUGH_JADE = ITEMS.register("rough_jade",
@@ -149,10 +136,6 @@ public class ModItems {
             FLAWLESSGEMSTONEItem::new);
     public static final RegistryObject<Item> PERFECT_JADE = ITEMS.register("perfect_jade",
             PERFECTGEMSTONEItem::new);
-
-
-
-
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
