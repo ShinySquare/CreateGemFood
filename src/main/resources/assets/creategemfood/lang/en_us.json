@@ -1,30 +1,24 @@
 {
   "item.creategemfood.sapphire": "Sapphire",
   "item.creategemfood.raw_sapphire": "Raw Sapphire",
-
   "item.creategemfood.metal_detector": "Metal Detector",
   "item.creategemfood.strawberry": "Strawberry",
   "item.creategemfood.pine_cone": "Pine Cone",
   "item.creategemfood.sapphire_staff": "Sapphire Staff",
   "item.creategemfood.tsnk": "Tomato Sauce",
   "item.creategemfood.tomato": "Tomato",
-
   "item.creategemfood.sapphire_sword": "Sapphire Sword",
   "item.creategemfood.sapphire_pickaxe": "Sapphire Pickaxe",
   "item.creategemfood.sapphire_axe": "Sapphire Axe",
   "item.creategemfood.sapphire_shovel": "Sapphire Shovel",
   "item.creategemfood.sapphire_hoe": "Sapphire Hoe",
-
   "block.creategemfood.sapphire_block": "Block of Sapphire",
   "block.creategemfood.raw_sapphire_block": "Block of Raw Sapphire",
-
   "block.creategemfood.sapphire_ore": "Sapphire Ore",
   "block.creategemfood.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.creategemfood.end_stone_sapphire_ore": "Endstone Sapphire Ore",
   "block.creategemfood.nether_sapphire_ore": "Nether Sapphire Ore",
-
   "block.creategemfood.sound_block": "Sound Block",
-
   "block.creategemfood.sapphire_stairs": "Sapphire Stairs",
   "block.creategemfood.sapphire_slab": "Sapphire Slab",
   "block.creategemfood.sapphire_button": "Sapphire Button",
@@ -34,38 +28,32 @@
   "block.creategemfood.sapphire_wall": "Sapphire Wall",
   "block.creategemfood.sapphire_door": "Sapphire Door",
   "block.creategemfood.sapphire_trapdoor": "Sapphire Trapdoor",
-
   "tooltip.creategemfood.metal_detector.tooltip": "Finds valuables underground!",
-
   "item.creategemfood.rough_ruby": "§c❤ Rough Ruby",
   "item.creategemfood.flawed_ruby": "§c❤ Flawed Ruby",
   "item.creategemfood.fine_ruby": "§c❤ Fine Ruby",
   "item.creategemfood.flawless_ruby": "§c❤ Flawless Ruby",
   "item.creategemfood.perfect_ruby": "§c❤ Perfect Ruby",
-
   "item.creategemfood.rough_sapphire": "§9✎ Rough Sapphire",
   "item.creategemfood.flawed_sapphire": "§9✎ Flawed Sapphire",
   "item.creategemfood.fine_sapphire": "§9✎ Fine Sapphire",
   "item.creategemfood.flawless_sapphire": "§9✎ Flawless Sapphire",
   "item.creategemfood.perfect_sapphire": "§9✎ Perfect Sapphire",
-
   "item.creategemfood.rough_topaz": "§d✧ Rough Topaz",
   "item.creategemfood.flawed_topaz": "§d✧ Flawed Topaz",
   "item.creategemfood.fine_topaz": "§d✧ Fine Topaz",
   "item.creategemfood.flawless_topaz": "§d✧ Flawless Topaz",
   "item.creategemfood.perfect_topaz": "§d✧ Perfect Topaz",
-
   "item.creategemfood.rough_jade": "§6☘ Rough Jade",
   "item.creategemfood.flawed_jade": "§6☘ Flawed Jade",
   "item.creategemfood.fine_jade": "§6☘ Fine Jade",
   "item.creategemfood.flawless_jade": "§6☘ Flawless Jade",
   "item.creategemfood.perfect_jade": "§6☘ Perfect Jade",
-
   "creativetab.bd": "More Building",
   "creativetab.mo": "More Ores",
   "creativetab.mf": "More Foods",
   "creativetab.mt": "More Tools",
-  "tooltip.creategemfood.metal_detector.tooltip": "Finds Valuables Underground!",
+  "creativetab.mc": "More Create",
   "item.creategemfood.mango": "Mango",
   "item.creategemfood.apple_juice_box": "Apple juice box",
   "item.creategemfood.biofuel": "Biofuel",
@@ -79,5 +67,19 @@
   "item.creategemfood.amethyst_knife": "Amethyst Knife",
   "item.creategemfood.amethyst_whisk": "Amethyst Whisk",
   "item.creategemfood.iron_rod": "Iron Rod",
-  "item.creategemfood.raw_ground_beef": "Ground Beef"
+  "item.creategemfood.raw_ground_beef": "Ground Beef",
+  "item.creategemfood.stone_whisk": "Stone Whisk",
+  "item.creategemfood.iron_whisk": "Iron Whisk",
+  "item.creategemfood.gold_whisk": "Gold Whisk",
+  "item.creategemfood.diamond_whisk": "Diamond Whisk",
+  "item.creategemfood.netherite_whisk": "Netherite Whisk",
+  "item.creategemfood.stone_whiskp": "Stone Whisk Part",
+  "item.creategemfood.iron_whiskp": "Iron Whisk Part",
+  "item.creategemfood.gold_whiskp": "Gold Whisk Part",
+  "item.creategemfood.diamond_whiskp": "Diamond Whisk Part",
+  "item.creategemfood.netherite_whiskp": "Netherite Whisk Part",
+  "item.creategemfood.shadow_steel_sheet": "Shadow Steel Sheet",
+  "item.creategemfood.abstruse_mechanism": "Abstruse Mechanism",
+  "item.creategemfood.echo_core": "Echo Core",
+  "item.creategemfood.incomplete_echo_core": "Incomplete Echo Core"
 }

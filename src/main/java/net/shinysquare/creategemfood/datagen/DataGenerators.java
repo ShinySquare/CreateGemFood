@@ -1,10 +1,14 @@
 package net.shinysquare.creategemfood.datagen;
 
+import com.simibubi.create.Create;
+import com.simibubi.create.content.processing.recipe.ProcessingRecipe;
+import com.simibubi.create.foundation.data.recipe.CreateRecipeProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
+import net.minecraftforge.eventbus.api.IGenericEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -19,12 +23,15 @@ public class DataGenerators {
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
-
-        generator.addProvider(event.includeServer(), new net.shinysquare.creategemfood.datagen.ModRecipeProvider(packOutput));
-        generator.addProvider(event.includeServer(), net.shinysquare.creategemfood.datagen.ModLootTableProvider.create(packOutput));
-
-        generator.addProvider(event.includeClient(), new net.shinysquare.creategemfood.datagen.ModBlockStateProvider(packOutput, existingFileHelper));
-        generator.addProvider(event.includeClient(), new net.shinysquare.creategemfood.datagen.ModItemModelProvider(packOutput, existingFileHelper));
+        if (event.includeServer()) {
+            generator.addProvider(true, new ModRecipeProvider(packOutput));
+            generator.addProvider(true, new MixingRecipeProvider(packOutput));
+            generator.addProvider(true, new PressingRecipeProvider(packOutput));
+//            generator.addProvider(true, new SequencedAssemblyRecipeProvider(packOutput));
+            generator.addProvider(true, ModLootTableProvider.create(packOutput));
+            generator.addProvider(true, new net.shinysquare.creategemfood.datagen.ModBlockStateProvider(packOutput, existingFileHelper));
+            generator.addProvider(true, new net.shinysquare.creategemfood.datagen.ModItemModelProvider(packOutput, existingFileHelper));
+        }
 
         net.shinysquare.creategemfood.datagen.ModBlockTagGenerator blockTagGenerator = generator.addProvider(event.includeServer(),
                 new net.shinysquare.creategemfood.datagen.ModBlockTagGenerator(packOutput, lookupProvider, existingFileHelper));

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "create:shadow_steel"
+    }
+  },
+  "pattern": [
+    " C ",
+    "SCS",
+    "SSS"
+  ],
+  "result": {
+    "item": "creategemfood:netherite_whiskp"
+  },
+  "show_notification": true
+}

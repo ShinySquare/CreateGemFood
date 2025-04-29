@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create:shadow_steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "creategemfood:shadow_steel_sheet"
+    }
+  ]
+}

@@ -137,7 +137,50 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" D ")
                 .define('A', Items.AMETHYST_SHARD)
                 .define('D', Items.ECHO_SHARD)
-                .define('I', Items.IRON_INGOT);
+                .define('I', Items.IRON_INGOT)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STONE_WHISKP.get(), 1)
+                .pattern(" C ")
+                .pattern("SCS")
+                .pattern("SSS")
+                .define('C', Items.COBBLESTONE)
+                .define('S', Items.COBBLESTONE_SLAB)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_WHISKP.get())
+                .pattern(" C ")
+                .pattern("SCS")
+                .pattern("SSS")
+                .define('C', Items.IRON_INGOT)
+                .define('S', AllItems.IRON_SHEET)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLD_WHISKP.get())
+                .pattern(" C ")
+                .pattern("SCS")
+                .pattern("SSS")
+                .define('C', Items.GOLD_INGOT)
+                .define('S', AllItems.GOLDEN_SHEET)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_WHISKP.get())
+                .pattern(" C ")
+                .pattern("SCS")
+                .pattern("SSS")
+                .define('C', Items.DIAMOND)
+                .define('S', AllItems.POLISHED_ROSE_QUARTZ)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NETHERITE_WHISKP.get())
+                .pattern(" C ")
+                .pattern("SCS")
+                .pattern("SSS")
+                .define('C', Items.NETHERITE_INGOT)
+                .define('S', AllItems.SHADOW_STEEL)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {

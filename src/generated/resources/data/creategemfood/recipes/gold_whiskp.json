@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "create:golden_sheet"
+    }
+  },
+  "pattern": [
+    " C ",
+    "SCS",
+    "SSS"
+  ],
+  "result": {
+    "item": "creategemfood:gold_whiskp"
+  },
+  "show_notification": true
+}

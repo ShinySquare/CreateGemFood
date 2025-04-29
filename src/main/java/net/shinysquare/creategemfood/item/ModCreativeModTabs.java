@@ -20,24 +20,18 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.bd"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.PINE_CONE.get());
-
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
-
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
-
                         pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
-
                         pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
-
                         pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
-
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> MOREMINING = CREATIVE_MODE_TABS.register("mo",
@@ -49,25 +43,21 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.FINE_RUBY.get());
                         pOutput.accept(ModItems.FLAWLESS_RUBY.get());
                         pOutput.accept(ModItems.PERFECT_RUBY.get());
-
                         pOutput.accept(ModItems.FLAWED_SAPPHIRE.get());
                         pOutput.accept(ModItems.ROUGH_SAPPHIRE.get());
                         pOutput.accept(ModItems.FINE_SAPPHIRE.get());
                         pOutput.accept(ModItems.FLAWLESS_SAPPHIRE.get());
                         pOutput.accept(ModItems.PERFECT_SAPPHIRE.get());
-
                         pOutput.accept(ModItems.FLAWED_TOPAZ.get());
                         pOutput.accept(ModItems.ROUGH_TOPAZ.get());
                         pOutput.accept(ModItems.FINE_TOPAZ.get());
                         pOutput.accept(ModItems.FLAWLESS_TOPAZ.get());
                         pOutput.accept(ModItems.PERFECT_TOPAZ.get());
-
                         pOutput.accept(ModItems.FLAWED_JADE.get());
                         pOutput.accept(ModItems.ROUGH_JADE.get());
                         pOutput.accept(ModItems.FINE_JADE.get());
                         pOutput.accept(ModItems.FLAWLESS_JADE.get());
                         pOutput.accept(ModItems.PERFECT_JADE.get());
-
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
@@ -111,8 +101,27 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.AMETHYST_KNIFE.get());
                         pOutput.accept(ModItems.AMETHYST_WHISK.get());
                         pOutput.accept(ModItems.IRON_ROD.get());
+                        pOutput.accept(ModItems.STONE_WHISK.get());
+                        pOutput.accept(ModItems.IRON_WHISK.get());
+                        pOutput.accept(ModItems.GOLD_WHISK.get());
+                        pOutput.accept(ModItems.DIAMOND_WHISK.get());
+                        pOutput.accept(ModItems.NETHERITE_WHISK.get());
+                        pOutput.accept(ModItems.STONE_WHISKP.get());
+                        pOutput.accept(ModItems.IRON_WHISKP.get());
+                        pOutput.accept(ModItems.GOLD_WHISKP.get());
+                        pOutput.accept(ModItems.DIAMOND_WHISKP.get());
+                        pOutput.accept(ModItems.NETHERITE_WHISKP.get());
                     })
                     .build());
+    public static final RegistryObject<CreativeModeTab> MORECREATE = CREATIVE_MODE_TABS.register("mc",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SHADOW_STEEL_SHEET.get()))
+                    .title(Component.translatable("creativetab.mc"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.SHADOW_STEEL_SHEET.get());
+                        pOutput.accept(ModItems.ABSTRUSE_MECHANISM.get());
+                        pOutput.accept(ModItems.ECHO_CORE.get());
+                        pOutput.accept(ModItems.INCOMPLETE_ECHO_CORE.get());
+                    }).build());
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }

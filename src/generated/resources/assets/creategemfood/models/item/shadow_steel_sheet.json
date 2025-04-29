@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "creategemfood:item/shadow_steel_sheet"
+  }
+}
