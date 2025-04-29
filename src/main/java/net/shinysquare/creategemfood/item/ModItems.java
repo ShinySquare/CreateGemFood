@@ -98,7 +98,14 @@ public class ModItems {
             DiamondWhiskItem::new);
     public static final RegistryObject<Item> NETHERITE_WHISKP = ITEMS.register("netherite_whiskp",
             NetheriteWhiskItem::new);
-
+    public static final RegistryObject<Item> SHADOW_STEEL_SHEET = ITEMS.register("shadow_steel_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ABSTRUSE_MECHANISM = ITEMS.register("abstruse_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ECHO_CORE = ITEMS.register("echo_core",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_ECHO_CORE = ITEMS.register("incomplete_echo_core",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FLAWED_RUBY = ITEMS.register("flawed_ruby",
             FLAWEDGEMSTONEItem::new);
     public static final RegistryObject<Item> ROUGH_RUBY = ITEMS.register("rough_ruby",

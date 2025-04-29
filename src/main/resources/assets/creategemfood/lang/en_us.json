@@ -65,6 +65,7 @@
   "creativetab.mo": "More Ores",
   "creativetab.mf": "More Foods",
   "creativetab.mt": "More Tools",
+  "creativetab.mc": "More Create",
   "item.creategemfood.mango": "Mango",
   "item.creategemfood.apple_juice_box": "Apple juice box",
   "item.creategemfood.biofuel": "Biofuel",
@@ -88,5 +89,9 @@
   "item.creategemfood.iron_whiskp": "Iron Whisk Part",
   "item.creategemfood.gold_whiskp": "Gold Whisk Part",
   "item.creategemfood.diamond_whiskp": "Diamond Whisk Part",
-  "item.creategemfood.netherite_whiskp": "Netherite Whisk Part"
+  "item.creategemfood.netherite_whiskp": "Netherite Whisk Part",
+  "item.creategemfood.shadow_steel_sheet": "Shadow Steel Sheet",
+  "item.creategemfood.abstruse_mechanism": "Abstruse Mechanism",
+  "item.creategemfood.echo_core": "Echo Core",
+  "item.creategemfood.incomplete_echo_core": "Incomplete Echo Core"
 }

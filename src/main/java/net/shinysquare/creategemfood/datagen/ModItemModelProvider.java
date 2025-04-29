@@ -20,7 +20,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-
         simpleItem(ModItems.TOMATO);
         simpleItem(ModItems.TOMATO_SAUCE_NOT_KETCHUP);
         simpleItem(ModItems.MANGO);
@@ -32,47 +31,37 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PERFECT_SAPPHIRE);
         simpleItem(ModItems.HALF_BREAD);
         simpleItem(ModItems.WOODEN_KNIFE);
-
         simpleItem(ModItems.ROUGH_RUBY);
         simpleItem(ModItems.FLAWED_RUBY);
         simpleItem(ModItems.FINE_RUBY);
         simpleItem(ModItems.FLAWLESS_RUBY);
         simpleItem(ModItems.PERFECT_RUBY);
-
         simpleItem(ModItems.ROUGH_JADE);
         simpleItem(ModItems.FLAWED_JADE);
         simpleItem(ModItems.FINE_JADE);
         simpleItem(ModItems.FLAWLESS_JADE);
         simpleItem(ModItems.PERFECT_JADE);
-
         simpleItem(ModItems.ROUGH_TOPAZ);
         simpleItem(ModItems.FLAWED_TOPAZ);
         simpleItem(ModItems.FINE_TOPAZ);
         simpleItem(ModItems.FLAWLESS_TOPAZ);
         simpleItem(ModItems.PERFECT_TOPAZ);
-
         simpleItem(ModItems.SAPPHIRE);
         simpleItem(ModItems.RAW_SAPPHIRE);
-
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PINE_CONE);
         simpleItem(ModItems.STRAWBERRY);
         simpleItem(ModItems.TOMATO);
         simpleItem(ModItems.TOMATO_SAUCE_NOT_KETCHUP);
-
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
-
         fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
         buttonItem(ModBlocks.SAPPHIRE_BUTTON, ModBlocks.SAPPHIRE_BLOCK);
         wallItem(ModBlocks.SAPPHIRE_WALL, ModBlocks.SAPPHIRE_BLOCK);
-
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_STAIRS);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_SLAB);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
-
         trapdoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
-
         handheldItem(ModItems.SAPPHIRE_SWORD);
         handheldItem(ModItems.SAPPHIRE_PICKAXE);
         handheldItem(ModItems.SAPPHIRE_AXE);
@@ -87,6 +76,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.AMETHYST_WHISK);
         simpleItem(ModItems.RAW_GROUND_BEEF);
         simpleItem(ModItems.IRON_ROD);
+        simpleItem(ModItems.STONE_WHISK);
+        simpleItem(ModItems.IRON_WHISK);
+        simpleItem(ModItems.GOLD_WHISK);
+        simpleItem(ModItems.DIAMOND_WHISK);
+        simpleItem(ModItems.NETHERITE_WHISK);
+        simpleItem(ModItems.STONE_WHISKP);
+        simpleItem(ModItems.IRON_WHISKP);
+        simpleItem(ModItems.GOLD_WHISKP);
+        simpleItem(ModItems.DIAMOND_WHISKP);
+        simpleItem(ModItems.NETHERITE_WHISKP);
+        simpleItem(ModItems.ABSTRUSE_MECHANISM);
+        simpleItem(ModItems.ECHO_CORE);
+        simpleItem(ModItems.INCOMPLETE_ECHO_CORE);
+        simpleItem(ModItems.SHADOW_STEEL_SHEET);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

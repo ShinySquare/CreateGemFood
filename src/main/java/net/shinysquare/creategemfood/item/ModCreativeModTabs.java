@@ -113,6 +113,15 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.NETHERITE_WHISKP.get());
                     })
                     .build());
+    public static final RegistryObject<CreativeModeTab> MORECREATE = CREATIVE_MODE_TABS.register("mc",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SHADOW_STEEL_SHEET.get()))
+                    .title(Component.translatable("creativetab.mc"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.SHADOW_STEEL_SHEET.get());
+                        pOutput.accept(ModItems.ABSTRUSE_MECHANISM.get());
+                        pOutput.accept(ModItems.ECHO_CORE.get());
+                        pOutput.accept(ModItems.INCOMPLETE_ECHO_CORE.get());
+                    }).build());
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }
