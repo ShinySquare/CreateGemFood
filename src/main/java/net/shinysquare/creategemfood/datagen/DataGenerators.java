@@ -3,6 +3,7 @@ package net.shinysquare.creategemfood.datagen;
 import com.simibubi.create.Create;
 import com.simibubi.create.content.processing.recipe.ProcessingRecipe;
 import com.simibubi.create.foundation.data.recipe.CreateRecipeProvider;
+import com.simibubi.create.infrastructure.data.GeneratedEntriesProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
