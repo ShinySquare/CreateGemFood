@@ -19,6 +19,8 @@ public class ModFoods {
             .saturationMod(0.8f).build();
     public static final FoodProperties RAW_GROUND_BEEF = new FoodProperties.Builder().nutrition(3).fast().alwaysEat()
             .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 1200, 255), 1f).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 1200,255), 1f).build();
+    public static final FoodProperties BEEF_PATTY = new FoodProperties.Builder().nutrition(7).fast()
+            .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.SATURATION, 200, 1),1f).build();
 
 
 }
