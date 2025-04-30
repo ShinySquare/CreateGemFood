@@ -1,4 +1,4 @@
-// 1.20.1	2025-04-28T19:07:02.14618	Item Models: creategemfood
+// 1.20.1	2025-04-30T09:00:46.842223	Item Models: creategemfood
 5a29651921a42f0eda27a2b7baaf1b9127ffd9c3 assets/creategemfood/models/item/abstruse_mechanism.json
 0e9488d16d04527d04a15e87b6214460912dadd4 assets/creategemfood/models/item/amethyst_axe.json
 7ccfc9f1ddf060d8fbe73b100adc0a340696570e assets/creategemfood/models/item/amethyst_hoe.json
@@ -7,6 +7,7 @@ c65169329525093061d4b6ea67ffc1c5e56bfaa1 assets/creategemfood/models/item/amethy
 de8f20dcc553047ec66a2cb675bd0d9d75afaba8 assets/creategemfood/models/item/amethyst_shovel.json
 3ee548e92ee8d4553ee678808359788b2daf5098 assets/creategemfood/models/item/amethyst_sword.json
 156573ce8e7a320e9a31db33fb38a04304d18fb3 assets/creategemfood/models/item/amethyst_whisk.json
+1f480f4d1ba6885c49fb25d74c28a6123a443763 assets/creategemfood/models/item/beef_patty.json
 39507fbbb098150903bb37aa4bc32a1ad1353246 assets/creategemfood/models/item/biofuel.json
 4e576eaf4c022d4e332c4eaaa9fe66275685ea46 assets/creategemfood/models/item/diamond_whisk.json
 873e8dabf59e2752f49d4a3669baf6403817c5cd assets/creategemfood/models/item/diamond_whiskp.json
