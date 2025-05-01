@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-01T09:47:24.11648	Recipes
+// 1.20.1	2025-05-01T09:50:57.56545	Recipes
 31b8cb44525320b632af6dd2cfd0e09e79a220db data/creategemfood/advancements/recipes/combat/amethyst_axe.json
 bcf5850a8caac18627b6898de94d58b568513f9e data/creategemfood/advancements/recipes/combat/amethyst_hoe.json
 2b676dfd7598545ff04e658f0b86340ea098da99 data/creategemfood/advancements/recipes/combat/amethyst_knife.json
@@ -40,7 +40,7 @@ d0d3610eed62fd49c148abaac8d9b754104081db data/creategemfood/recipes/gold_whiskp.
 1540df7fdca72def6a10a15e820c1e3dd8eaf7fa data/creategemfood/recipes/iron_rod.json
 1f02b3d08bddd6d43cebbd97089715962ba8b87f data/creategemfood/recipes/iron_whiskp.json
 75994582a4de2063646276e3eeb63849fcda875d data/creategemfood/recipes/netherite_whiskp.json
-5f10e1574b10e305e098b152d3757f98492efb54 data/creategemfood/recipes/raw_ground_beef.json
+31d55fd8fc054473a7cf2b11ac4c862053d7b642 data/creategemfood/recipes/raw_ground_beef.json
 ff11c29ec3d6dbd1c2bd37b7d45d683fb3cefa66 data/creategemfood/recipes/sapphire.json
 07e4acba81ffd2533bf284b4dddbf54e733b8d7d data/creategemfood/recipes/sapphire_block.json
 7d98995636a97648d2dd94a6a8b2014d13e1fa36 data/creategemfood/recipes/sapphire_from_blasting_deepslate_sapphire_ore.json

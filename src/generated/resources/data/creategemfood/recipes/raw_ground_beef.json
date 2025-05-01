@@ -1,24 +1,18 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "B": {
-      "item": "minecraft:beef"
+  "ingredients": [
+    {
+      "tag": "creategemfood:whisk"
     },
-    "K": {
+    {
       "tag": "creategemfood:cut_tool"
     },
-    "W": {
-      "tag": "creategemfood:whisk"
+    {
+      "item": "minecraft:beef"
     }
-  },
-  "pattern": [
-    "   ",
-    "KBW",
-    "   "
   ],
   "result": {
     "item": "creategemfood:raw_ground_beef"
-  },
-  "show_notification": true
+  }
 }

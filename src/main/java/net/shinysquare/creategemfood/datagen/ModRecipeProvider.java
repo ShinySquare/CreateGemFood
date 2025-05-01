@@ -114,13 +114,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.BREAD)
                 .unlockedBy("has_bread", has(Items.BREAD))
                 .save(pWriter);
-        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.RAW_GROUND_BEEF.get())
-                .pattern("   ")
-                .pattern("KBW")
-                .pattern("   ")
-                .define('K', ModTags.Items.CUTTING_TOOL)
-                .define('B', Items.BEEF)
-                .define('W', ModTags.Items.WHISK)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.RAW_GROUND_BEEF.get())
+                .requires(ModTags.Items.WHISK)
+                .requires(ModTags.Items.CUTTING_TOOL)
+                .requires(Items.BEEF)
                 .unlockedBy(getHasName(Items.BEEF), has(Items.BEEF))
                 .save(pWriter);
 
