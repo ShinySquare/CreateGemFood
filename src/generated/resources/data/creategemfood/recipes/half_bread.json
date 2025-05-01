@@ -1,22 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "B": {
-      "item": "minecraft:bread"
-    },
-    "K": {
+  "ingredients": [
+    {
       "tag": "creategemfood:cut_tool"
+    },
+    {
+      "item": "minecraft:bread"
     }
-  },
-  "pattern": [
-    "   ",
-    "KB ",
-    "   "
   ],
   "result": {
     "count": 2,
     "item": "creategemfood:half_bread"
-  },
-  "show_notification": true
+  }
 }
