@@ -123,8 +123,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("   ")
                 .define('K', ModTags.Items.CUTTING_TOOL)
                 .define('B', Items.BEEF)
-                .define('W', ModItems.AMETHYST_WHISK.get())
-                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .define('W', ModTags.Items.WHISK)
+                .unlockedBy(getHasName(Items.BEEF), has(Items.BEEF))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.WOODEN_KNIFE.get(), 1)

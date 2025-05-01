@@ -9,7 +9,7 @@
       "tag": "creategemfood:cut_tool"
     },
     "W": {
-      "item": "creategemfood:amethyst_whisk"
+      "tag": "creategemfood:whisk"
     }
   },
   "pattern": [

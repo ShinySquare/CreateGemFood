@@ -1,4 +1,4 @@
-// 1.20.1	2025-04-25T17:56:53.692737	Recipes
+// 1.20.1	2025-05-01T09:39:34.866825	Recipes
 31b8cb44525320b632af6dd2cfd0e09e79a220db data/creategemfood/advancements/recipes/combat/amethyst_axe.json
 bcf5850a8caac18627b6898de94d58b568513f9e data/creategemfood/advancements/recipes/combat/amethyst_hoe.json
 2b676dfd7598545ff04e658f0b86340ea098da99 data/creategemfood/advancements/recipes/combat/amethyst_knife.json
@@ -7,7 +7,7 @@ bc021880fb70b407386ed639296088551b3d3d61 data/creategemfood/advancements/recipes
 d00a846928fb7e8f0defa85de609b2aea7e491e2 data/creategemfood/advancements/recipes/combat/amethyst_sword.json
 a2078722686c855a6fed221b4b79706edd34d915 data/creategemfood/advancements/recipes/food/amethyst_whisk.json
 0e201d45f836125fd13c6face48820a797f00eeb data/creategemfood/advancements/recipes/food/half_bread.json
-aef3e4e21453f41af68dd61de281008a5244271c data/creategemfood/advancements/recipes/food/raw_ground_beef.json
+6d889deba8ba4556548477905881c64d62834a3b data/creategemfood/advancements/recipes/food/raw_ground_beef.json
 038f2106fe6464996a952e26f8a507255554c7f9 data/creategemfood/advancements/recipes/food/wood_knife.json
 e5f5e2ea7cc7f7d260acd735b44e6655d255a8aa data/creategemfood/advancements/recipes/misc/diamond_whiskp.json
 7a02ef7536ad76bb778aa036a7fe58c1afb68ae8 data/creategemfood/advancements/recipes/misc/gold_whiskp.json
@@ -40,7 +40,7 @@ a77f96ccda82e7724ac884b25989f78164c49ffe data/creategemfood/recipes/half_bread.j
 1540df7fdca72def6a10a15e820c1e3dd8eaf7fa data/creategemfood/recipes/iron_rod.json
 1f02b3d08bddd6d43cebbd97089715962ba8b87f data/creategemfood/recipes/iron_whiskp.json
 75994582a4de2063646276e3eeb63849fcda875d data/creategemfood/recipes/netherite_whiskp.json
-cc1bea7a431fe07456e4c84d4dc8260e3fa1af6c data/creategemfood/recipes/raw_ground_beef.json
+5f10e1574b10e305e098b152d3757f98492efb54 data/creategemfood/recipes/raw_ground_beef.json
 ff11c29ec3d6dbd1c2bd37b7d45d683fb3cefa66 data/creategemfood/recipes/sapphire.json
 07e4acba81ffd2533bf284b4dddbf54e733b8d7d data/creategemfood/recipes/sapphire_block.json
 7d98995636a97648d2dd94a6a8b2014d13e1fa36 data/creategemfood/recipes/sapphire_from_blasting_deepslate_sapphire_ore.json

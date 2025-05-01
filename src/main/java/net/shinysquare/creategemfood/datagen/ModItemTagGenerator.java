@@ -32,5 +32,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         , Items.WOODEN_SWORD
                         , ModItems.WOODEN_KNIFE.get()
                         , ModItems.AMETHYST_KNIFE.get());
+        this.tag(ModTags.Items.WHISK)
+                .add(ModItems.STONE_WHISK.get())
+                .add(ModItems.IRON_WHISK.get())
+                .add(ModItems.GOLD_WHISK.get())
+                .add(ModItems.DIAMOND_WHISK.get())
+                .add(ModItems.NETHERITE_WHISK.get())
+                .add(ModItems.AMETHYST_WHISK.get());
     }
 }
