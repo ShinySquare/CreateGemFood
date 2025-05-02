@@ -1,6 +1,7 @@
 package net.shinysquare.creategemfood.datagen;
 
 import com.simibubi.create.AllItems;
+import com.simibubi.create.foundation.data.recipe.CreateRecipeProvider;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
@@ -14,6 +15,7 @@ import net.shinysquare.creategemfood.block.ModBlocks;
 import net.shinysquare.creategemfood.item.ModItems;
 import net.shinysquare.creategemfood.util.ModTags;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -25,7 +27,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
+    protected final List<ModRecipeProvider.GeneratedRecipe> all = new ArrayList<>();
 
+
+
+    @FunctionalInterface
+    public interface GeneratedRecipe {
+        void register(Consumer<FinishedRecipe> consumer);
+    }
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         oreSmelting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 200, "sapphire");

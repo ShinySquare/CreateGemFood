@@ -1,46 +1,90 @@
-[01May2025 16:50:17.349] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /Users/lukeyan/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, creategemfood, --all, --output, /Users/lukeyan/Downloads/CreateGemFood/src/generated/resources, --existing, /Users/lukeyan/Downloads/CreateGemFood/src/main/resources]
-[01May2025 16:50:17.363] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Mac OS X arch x86_64 version 12.6.3
-[01May2025 16:50:17.817] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[01May2025 16:50:18.214] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/lukeyan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23121!/ Service=ModLauncher Env=CLIENT
-[01May2025 16:50:20.261] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.3.22/9a1d96e9108940786d846c8cc0dac07100e79f56/javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[01May2025 16:50:20.267] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.3.22/2529f2c27d8f8a63ee54efc81fdfc3cea2d43c8/lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[01May2025 16:50:20.300] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.3.22/2de14adfd8715f1956007499d8d75c6a4e6fa872/mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[01May2025 16:50:20.315] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.3.22/cf26aeb747e0d323f8eed9b00ebfb783282d5837/fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
-[01May2025 16:50:21.796] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[01May2025 16:50:31.651] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01May2025 16:50:31.681] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /Users/lukeyan/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, creategemfood, --all, --output, /Users/lukeyan/Downloads/CreateGemFood/src/generated/resources, --existing, /Users/lukeyan/Downloads/CreateGemFood/src/main/resources]
-[01May2025 16:50:33.787] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using /Users/lukeyan/Downloads/CreateGemFood/build/createSrgToMcp/output.srg
-[01May2025 16:50:33.792] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using /Users/lukeyan/Downloads/CreateGemFood/build/createSrgToMcp/output.srg
-[01May2025 16:50:37.642] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [creategemfood]
-[01May2025 16:50:56.356] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
-[01May2025 16:50:56.358] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
-[01May2025 16:50:56.963] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[01May2025 16:50:57.538] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[01May2025 16:50:57.547] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 6.630 ms
-[01May2025 16:51:08.010] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lukeyan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.22_mapped_official_1.20.1/forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/assets/.mcassetsroot' uses unexpected schema
-[01May2025 16:51:08.012] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lukeyan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.22_mapped_official_1.20.1/forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/data/.mcassetsroot' uses unexpected schema
-[01May2025 16:51:08.046] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /Users/lukeyan/Downloads/CreateGemFood/src/main/resources
-[01May2025 16:51:08.076] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /Users/lukeyan/Downloads/CreateGemFood/src/main/resources
-[01May2025 16:51:08.945] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[01May2025 16:51:09.034] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 87 ms
-[01May2025 16:51:09.034] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: mixing
-[01May2025 16:51:09.052] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: mixing registered 1 recipe
-[01May2025 16:51:09.052] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: mixing finished after 17 ms
-[01May2025 16:51:09.053] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: pressing
-[01May2025 16:51:09.054] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: pressing registered 2 recipes
-[01May2025 16:51:09.055] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: pressing finished after 1 ms
-[01May2025 16:51:09.055] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: cutting
-[01May2025 16:51:09.056] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: cutting registered 2 recipes
-[01May2025 16:51:09.059] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: cutting finished after 3 ms
-[01May2025 16:51:09.060] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[01May2025 16:51:09.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 94 ms
-[01May2025 16:51:09.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: creategemfood
-[01May2025 16:51:09.444] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: creategemfood finished after 288 ms
-[01May2025 16:51:09.445] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: creategemfood
-[01May2025 16:51:09.528] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: creategemfood finished after 82 ms
-[01May2025 16:51:09.528] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id creategemfood
-[01May2025 16:51:09.563] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id creategemfood finished after 34 ms
-[01May2025 16:51:09.563] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id creategemfood
-[01May2025 16:51:09.566] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id creategemfood finished after 2 ms
-[01May2025 16:51:09.566] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 622 ms
-[01May2025 16:51:09.589] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 231, old count: 215, new count: 232, removed stale: 0, written: 16
+[02May2025 07:46:06.065] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /Users/lukeyan/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, creategemfood, --all, --output, /Users/lukeyan/Downloads/CreateGemFood/src/generated/resources, --existing, /Users/lukeyan/Downloads/CreateGemFood/src/main/resources]
+[02May2025 07:46:06.384] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Mac OS X arch x86_64 version 12.6.3
+[02May2025 07:46:08.107] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[02May2025 07:46:08.409] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/lukeyan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23121!/ Service=ModLauncher Env=CLIENT
+[02May2025 07:46:11.897] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.3.22/9a1d96e9108940786d846c8cc0dac07100e79f56/javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[02May2025 07:46:11.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.3.22/2529f2c27d8f8a63ee54efc81fdfc3cea2d43c8/lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[02May2025 07:46:11.904] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.3.22/2de14adfd8715f1956007499d8d75c6a4e6fa872/mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[02May2025 07:46:11.907] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.3.22/cf26aeb747e0d323f8eed9b00ebfb783282d5837/fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
+[02May2025 07:46:13.639] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02May2025 07:46:29.106] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02May2025 07:46:29.180] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /Users/lukeyan/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, creategemfood, --all, --output, /Users/lukeyan/Downloads/CreateGemFood/src/generated/resources, --existing, /Users/lukeyan/Downloads/CreateGemFood/src/main/resources]
+[02May2025 07:46:31.642] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using /Users/lukeyan/Downloads/CreateGemFood/build/createSrgToMcp/output.srg
+[02May2025 07:46:31.675] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using /Users/lukeyan/Downloads/CreateGemFood/build/createSrgToMcp/output.srg
+[02May2025 07:46:37.221] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [creategemfood]
+[02May2025 07:47:14.525] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
+[02May2025 07:47:14.526] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
+[02May2025 07:47:16.987] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[02May2025 07:47:19.450] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[02May2025 07:47:19.612] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 158.6 ms
+[02May2025 07:47:57.738] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lukeyan/Downloads/CreateGemFood/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.22_mapped_official_1.20.1/forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/assets/.mcassetsroot' uses unexpected schema
+[02May2025 07:47:57.739] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lukeyan/Downloads/CreateGemFood/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.22_mapped_official_1.20.1/forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/data/.mcassetsroot' uses unexpected schema
+[02May2025 07:47:57.783] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /Users/lukeyan/Downloads/CreateGemFood/src/main/resources
+[02May2025 07:47:57.849] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /Users/lukeyan/Downloads/CreateGemFood/src/main/resources
+[02May2025 07:47:58.441] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Duplicate provider: Recipes
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.shinysquare.creategemfood.datagen.DataGenerators gatherData(Lnet/minecraftforge/data/event/GatherDataEvent;)V
+java.lang.IllegalStateException: Duplicate provider: Recipes
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.data.DataGenerator.addProvider(DataGenerator.java:83)
+	at TRANSFORMER/creategemfood@1.0.0/net.shinysquare.creategemfood.datagen.DataGenerators.gatherData(DataGenerators.java:31)
+	at TRANSFORMER/creategemfood@1.0.0/net.shinysquare.creategemfood.datagen.__DataGenerators_gatherData_GatherDataEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at LAYER PLUGIN/javafmllanguage@1.20.1-47.3.22/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:121)
+	at LAYER PLUGIN/fmlcore@1.20.1-47.3.22/net.minecraftforge.fml.ModLoader.lambda$runEventGenerator$28(ModLoader.java:318)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at LAYER PLUGIN/fmlcore@1.20.1-47.3.22/net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:227)
+	at LAYER PLUGIN/fmlcore@1.20.1-47.3.22/net.minecraftforge.fml.ModLoader.runEventGenerator(ModLoader.java:318)
+	at TRANSFORMER/forge@47.3.22/net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:52)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.data.Main.main(Main.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.22/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.22/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.dataService(CommonLaunchHandler.java:107)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.22/net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.devService(ForgeDataUserdevLaunchHandler.java:22)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.22/net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+
+[02May2025 07:47:58.446] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event net.minecraftforge.data.event.GatherDataEvent@198d6bc7 dispatch for modid creategemfood
+java.lang.IllegalStateException: Duplicate provider: Recipes
+	at net.minecraft.data.DataGenerator.addProvider(DataGenerator.java:83) ~[forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/:?]
+	at net.shinysquare.creategemfood.datagen.DataGenerators.gatherData(DataGenerators.java:31) ~[%23189!/:?]
+	at net.shinysquare.creategemfood.datagen.__DataGenerators_gatherData_GatherDataEvent.invoke(.dynamic) ~[%23189!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:121) ~[javafmllanguage-1.20.1-47.3.22.jar:?]
+	at net.minecraftforge.fml.ModLoader.lambda$runEventGenerator$28(ModLoader.java:318) ~[fmlcore-1.20.1-47.3.22.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:227) ~[fmlcore-1.20.1-47.3.22.jar:?]
+	at net.minecraftforge.fml.ModLoader.runEventGenerator(ModLoader.java:318) ~[fmlcore-1.20.1-47.3.22.jar:?]
+	at net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:52) ~[forge-1.20.1-47.3.22_mapped_official_1.20.1.jar:?]
+	at net.minecraft.data.Main.main(Main.java:90) ~[forge-1.20.1-47.3.22_mapped_official_1.20.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.22.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.dataService(CommonLaunchHandler.java:107) ~[fmlloader-1.20.1-47.3.22.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.devService(ForgeDataUserdevLaunchHandler.java:22) ~[fmlloader-1.20.1-47.3.22.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.3.22.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]

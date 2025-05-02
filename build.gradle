@@ -46,7 +46,7 @@ minecraft {
     // The folder name can be set on a run configuration using the "folderName" property.
     // By default, the folder name of a run configuration is the name of the Gradle project containing it.
     // generateRunFolders = true
-
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
     // This property enables access transformers for use in development.
     // They will be applied to the Minecraft artifact.
     // The access transformer file can be anywhere in the project.
@@ -68,6 +68,7 @@ minecraft {
             // "REGISTRIES": For firing of registry events.
             // "REGISTRYDUMP": For getting the contents of all registries.
             property 'forge.logging.markers', 'REGISTRIES'
+
 
             // Recommended logging level for the console
             // You can set various levels here.
