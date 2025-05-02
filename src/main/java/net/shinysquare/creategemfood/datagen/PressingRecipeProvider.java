@@ -17,7 +17,9 @@ public class PressingRecipeProvider extends ProcessingRecipeGen {
     }
     GeneratedRecipe
         SHADOW_STEEL_SHEET = create("shadow_steel_sheet", b -> b.require(AllItems.SHADOW_STEEL)
-            .output(ModItems.SHADOW_STEEL_SHEET.get()));
+            .output(ModItems.SHADOW_STEEL_SHEET.get())),
+        REFINED_RADIANCE_SHEET = create("refined_radiance_sheet", b -> b.require(AllItems.REFINED_RADIANCE)
+                    .output(ModItems.REFINED_RADIANCE_SHEET.get()));
     public PressingRecipeProvider(PackOutput output) {
         super(output);
     }

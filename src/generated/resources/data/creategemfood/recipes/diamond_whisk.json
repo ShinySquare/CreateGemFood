@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "creategemfood:refined_radiance_rod"
+    },
+    "W": {
+      "item": "creategemfood:diamond_whiskp"
+    }
+  },
+  "pattern": [
+    " W ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "creategemfood:diamond_whisk"
+  },
+  "show_notification": true
+}

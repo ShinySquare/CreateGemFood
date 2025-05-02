@@ -174,7 +174,46 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', AllItems.SHADOW_STEEL)
                 .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
                 .save(pWriter);
-
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STONE_WHISK.get())
+                .pattern(" W ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('W', ModItems.STONE_WHISKP.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_WHISK.get())
+                .pattern(" W ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('W', ModItems.IRON_WHISKP.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLD_WHISK.get())
+                .pattern(" W ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('W', ModItems.GOLD_WHISKP.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_WHISK.get())
+                .pattern(" W ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('W', ModItems.DIAMOND_WHISKP.get())
+                .define('S', ModItems.REFINED_RADIANCE_ROD.get())
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NETHERITE_WHISK.get())
+                .pattern(" W ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('W', ModItems.NETHERITE_WHISKP.get())
+                .define('S', ModItems.SHADOW_STEEL_ROD.get())
+                .unlockedBy(getHasName(Items.CRAFTING_TABLE), has(Items.CRAFTING_TABLE))
+                .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {

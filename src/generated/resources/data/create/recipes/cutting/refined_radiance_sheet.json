@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "creategemfood:refined_radiance_sheet"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "creategemfood:refined_radiance_rod"
+    }
+  ]
+}

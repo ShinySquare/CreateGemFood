@@ -81,5 +81,8 @@
   "item.creategemfood.shadow_steel_sheet": "Shadow Steel Sheet",
   "item.creategemfood.abstruse_mechanism": "Abstruse Mechanism",
   "item.creategemfood.echo_core": "Echo Core",
-  "item.creategemfood.incomplete_echo_core": "Incomplete Echo Core"
+  "item.creategemfood.incomplete_echo_core": "Incomplete Echo Core",
+  "item.creategemfood.refined_radiance_rod": "Refined Radiance Rod",
+  "item.creategemfood.refined_radiance_sheet": "Refined Radiance Sheet",
+  "item.creategemfood.shadow_steel_rod": "Shadow Steel Rod"
 }

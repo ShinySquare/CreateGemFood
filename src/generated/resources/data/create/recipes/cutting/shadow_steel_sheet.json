@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "creategemfood:shadow_steel_sheet"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "creategemfood:shadow_steel_rod"
+    }
+  ]
+}

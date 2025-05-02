@@ -46,6 +46,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod",
             () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> REFINED_RADIANCE_ROD = ITEMS.register("refined_radiance_rod",
+            () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> REFINED_RADIANCE_SHEET = ITEMS.register("refined_radiance_sheet",
+            () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> SHADOW_STEEL_ROD = ITEMS.register("shadow_steel_rod",
+            () -> new Item(new Item.Properties().stacksTo(64)));
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(net.shinysquare.creategemfood.item.ModToolTiers.SAPPHIRE, 4, 2, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",

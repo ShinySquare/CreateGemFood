@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create:refined_radiance"
+    }
+  ],
+  "results": [
+    {
+      "item": "creategemfood:refined_radiance_sheet"
+    }
+  ]
+}

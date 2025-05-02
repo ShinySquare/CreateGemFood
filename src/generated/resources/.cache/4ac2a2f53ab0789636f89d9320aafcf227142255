@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-01T09:39:34.863499	Item Models: creategemfood
+// 1.20.1	2025-05-01T16:51:09.568911	Item Models: creategemfood
 5a29651921a42f0eda27a2b7baaf1b9127ffd9c3 assets/creategemfood/models/item/abstruse_mechanism.json
 0e9488d16d04527d04a15e87b6214460912dadd4 assets/creategemfood/models/item/amethyst_axe.json
 7ccfc9f1ddf060d8fbe73b100adc0a340696570e assets/creategemfood/models/item/amethyst_hoe.json
@@ -43,6 +43,8 @@ f4f5507f84e1ceb37bb80babbc379ecc8bce61b1 assets/creategemfood/models/item/perfec
 1cfa70dae95987a7e37ebb7060bb6014dca79298 assets/creategemfood/models/item/pine_cone.json
 9ffd48fec096f98b79f4069a1231ab5335668146 assets/creategemfood/models/item/raw_ground_beef.json
 2d590b1d7a9a48e5e3cf09ae5241bd39dc52046c assets/creategemfood/models/item/raw_sapphire.json
+3b98d8b5c59411f40a019c7c1f5ecfc005b70b72 assets/creategemfood/models/item/refined_radiance_rod.json
+99ec9c64504c745918337d5f08338d19da38c14b assets/creategemfood/models/item/refined_radiance_sheet.json
 fa1fd5db7266ff39b549f7d2360e477a4248994f assets/creategemfood/models/item/rough_jade.json
 65b944741dbaa40cde5280f38e497b5b65d78204 assets/creategemfood/models/item/rough_ruby.json
 83717f2afbfb769d10a1d0ab08ff1fd6c3f1dbdb assets/creategemfood/models/item/rough_sapphire.json
@@ -62,6 +64,7 @@ aa4178dc7e52db969eaf5ea434cd410081faca2a assets/creategemfood/models/item/sapphi
 c6aa7fd1bad9211cc78c378b5387bf330daf23c3 assets/creategemfood/models/item/sapphire_sword.json
 85832e386fc69f0648ec4f22b6e521c406b7ab38 assets/creategemfood/models/item/sapphire_trapdoor.json
 87b0e8bd852d2c3056530189dee21cf1e281f9d3 assets/creategemfood/models/item/sapphire_wall.json
+3d21eec0582c26f6c628015a3017659b70d06dcf assets/creategemfood/models/item/shadow_steel_rod.json
 aa156fa887c5929fd4c24d82f6900cc684ad1efd assets/creategemfood/models/item/shadow_steel_sheet.json
 e21b971f8e411fb81f6c38aeb34ff669d2523844 assets/creategemfood/models/item/stone_whisk.json
 7ad3a978713db395eac683d24bf6f70781cc16a6 assets/creategemfood/models/item/stone_whiskp.json
