@@ -89,6 +89,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ABSTRUSE_MECHANISM);
         simpleItem(ModItems.ECHO_CORE);
         simpleItem(ModItems.INCOMPLETE_ECHO_CORE);
+        simpleItem(ModItems.ECHO_SEAL);
+        simpleItem(ModItems.INCOMPLETE_ECHO_SEAL);
         simpleItem(ModItems.SHADOW_STEEL_SHEET);
         simpleItem(ModItems.BEEF_PATTY);
         simpleItem(ModItems.APPLE_JUICE_BOX);

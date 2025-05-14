@@ -102,6 +102,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ECHO_CORE = ITEMS.register("echo_core",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ECHO_SEAL = ITEMS.register("echo_seal",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INCOMPLETE_ECHO_SEAL = ITEMS.register("incomplete_echo_seal",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INCOMPLETE_ECHO_CORE = ITEMS.register("incomplete_echo_core",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FLAWED_RUBY = ITEMS.register("flawed_ruby",

@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:echo_shard"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "creategemfood:echo_seal"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creategemfood:incomplete_echo_seal"
+        },
+        {
+          "item": "creategemfood:shadow_steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "creategemfood:incomplete_echo_seal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creategemfood:incomplete_echo_seal"
+        },
+        {
+          "item": "minecraft:echo_shard"
+        }
+      ],
+      "results": [
+        {
+          "item": "creategemfood:incomplete_echo_seal"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creategemfood:incomplete_echo_seal"
+        }
+      ],
+      "results": [
+        {
+          "item": "creategemfood:incomplete_echo_seal"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "creategemfood:incomplete_echo_seal"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creategemfood:shadow_steel_sheet"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "creategemfood:echo_core"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        },
+        {
+          "item": "minecraft:echo_shard"
+        }
+      ],
+      "results": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        },
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "results": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        },
+        {
+          "item": "creategemfood:echo_seal"
+        }
+      ],
+      "results": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        }
+      ],
+      "results": [
+        {
+          "item": "creategemfood:incomplete_echo_core"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "creategemfood:incomplete_echo_core"
+  }
+}

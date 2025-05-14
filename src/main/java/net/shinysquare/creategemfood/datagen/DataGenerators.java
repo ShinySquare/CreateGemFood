@@ -25,10 +25,10 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
         if (event.includeServer()) {
-            generator.addProvider(true, new ModRecipeProvider(packOutput));
+//            generator.addProvider(true, new ModRecipeProvider(packOutput));
             generator.addProvider(true, new MixingRecipeProvider(packOutput));
             generator.addProvider(true, new PressingRecipeProvider(packOutput));
-//            generator.addProvider(true, new SequencedAssemblyRecipeProvider(packOutput));
+            generator.addProvider(true, new SequencedAssemblyRecipeProvider(packOutput));
             generator.addProvider(true, new CuttingRecipeProvider(packOutput));
             generator.addProvider(true, ModLootTableProvider.create(packOutput));
             generator.addProvider(true, new net.shinysquare.creategemfood.datagen.ModBlockStateProvider(packOutput, existingFileHelper));

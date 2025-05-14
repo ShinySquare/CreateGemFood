@@ -121,6 +121,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ABSTRUSE_MECHANISM.get());
                         pOutput.accept(ModItems.ECHO_CORE.get());
                         pOutput.accept(ModItems.INCOMPLETE_ECHO_CORE.get());
+                        pOutput.accept(ModItems.ECHO_SEAL.get());
+                        pOutput.accept(ModItems.INCOMPLETE_ECHO_SEAL.get());
                     }).build());
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-01T16:51:09.568911	Item Models: creategemfood
+// 1.20.1	2025-05-02T10:27:40.553026	Item Models: creategemfood
 5a29651921a42f0eda27a2b7baaf1b9127ffd9c3 assets/creategemfood/models/item/abstruse_mechanism.json
 0e9488d16d04527d04a15e87b6214460912dadd4 assets/creategemfood/models/item/amethyst_axe.json
 7ccfc9f1ddf060d8fbe73b100adc0a340696570e assets/creategemfood/models/item/amethyst_hoe.json
@@ -13,6 +13,7 @@ de8f20dcc553047ec66a2cb675bd0d9d75afaba8 assets/creategemfood/models/item/amethy
 4e576eaf4c022d4e332c4eaaa9fe66275685ea46 assets/creategemfood/models/item/diamond_whisk.json
 873e8dabf59e2752f49d4a3669baf6403817c5cd assets/creategemfood/models/item/diamond_whiskp.json
 1ccf505c49b2a4fb5b82886e526e8ee3d19037e9 assets/creategemfood/models/item/echo_core.json
+1b459e1f16f7ec702df9ac677708b92c8c82b2f4 assets/creategemfood/models/item/echo_seal.json
 80e010fcc31d252a58f044cb56faf085fc005d04 assets/creategemfood/models/item/fine_jade.json
 0ef4e05e64548c5b68eeb3fbc3090fb047d259be assets/creategemfood/models/item/fine_ruby.json
 4128f785ebf2f915f538da198c56cac34c6ad7a3 assets/creategemfood/models/item/fine_sapphire.json
@@ -29,6 +30,7 @@ e02e09ac2dc6fed976f9ea5c4c4b828242659aa1 assets/creategemfood/models/item/gold_w
 979452bda73b1977aff06fc95a9f811827816107 assets/creategemfood/models/item/gold_whiskp.json
 79d136ab68286e3f1251ba0ca2271a448daab003 assets/creategemfood/models/item/half_bread.json
 b69922e5f4dd6cc0433fea0b8f754f340c9fe16e assets/creategemfood/models/item/incomplete_echo_core.json
+72a4bdd926b298cb46534e23c46546e90d7e2425 assets/creategemfood/models/item/incomplete_echo_seal.json
 ba18678f36a784544be2dd5a06a5b0e57502fb67 assets/creategemfood/models/item/iron_rod.json
 c036b4d4d42fafe4bb411a29d8dbc0ff1e4c0bd9 assets/creategemfood/models/item/iron_whisk.json
 ac0ad35d4627217fe3260d74b13e3d98fba7c30f assets/creategemfood/models/item/iron_whiskp.json
