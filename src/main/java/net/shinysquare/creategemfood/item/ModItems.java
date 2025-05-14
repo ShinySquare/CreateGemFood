@@ -33,7 +33,7 @@ public class ModItems {
     public static final RegistryObject<Item> TOMATO_SAUCE_NOT_KETCHUP = ITEMS.register("tsnk",
             () -> new Item(new Item.Properties().food(ModFoods.TOMATO_SAUCE_NOT_KETCHUP)));
     public static final RegistryObject<Item> APPLE_JUICE_BOX = ITEMS.register("apple_juice_box" ,
-            () -> new Item(new Item.Properties().food(ModFoods.APPLE_JUICE_BOX).stacksTo(1)));
+            () -> new Item(new Item.Properties().food(ModFoods.APPLE_JUICE_BOX).stacksTo(4)));
     public static final RegistryObject<Item> HALF_BREAD = ITEMS.register("half_bread" ,
             () -> new Item(new Item.Properties().food(ModFoods.HALF_BREAD).stacksTo(128)));
     public static final RegistryObject<Item> RAW_GROUND_BEEF = ITEMS.register("raw_ground_beef" ,
@@ -42,6 +42,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.BEEF_PATTY).stacksTo(16)));
     public static final RegistryObject<Item> WOODEN_KNIFE = ITEMS.register("wood_knife" ,
             WoodenKnifeItem::new);
+    public static final RegistryObject<Item> JUICE_BOX = ITEMS.register("juice_box" ,
+            () -> new Item(new Item.Properties().stacksTo(4)));
+
     public static final RegistryObject<Item> BIOFUEL = ITEMS.register("biofuel",
             () -> new Item(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod",

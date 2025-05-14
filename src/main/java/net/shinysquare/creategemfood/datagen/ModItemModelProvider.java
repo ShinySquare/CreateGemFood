@@ -97,6 +97,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.REFINED_RADIANCE_ROD);
         simpleItem(ModItems.REFINED_RADIANCE_SHEET);
         simpleItem(ModItems.SHADOW_STEEL_ROD);
+        simpleItem(ModItems.JUICE_BOX);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

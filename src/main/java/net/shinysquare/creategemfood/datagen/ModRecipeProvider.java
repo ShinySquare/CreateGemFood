@@ -4,6 +4,7 @@ import com.simibubi.create.AllItems;
 import com.simibubi.create.foundation.data.recipe.CreateRecipeProvider;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -128,6 +129,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModTags.Items.CUTTING_TOOL)
                 .requires(Items.BEEF)
                 .unlockedBy(getHasName(Items.BEEF), has(Items.BEEF))
+                .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.APPLE_JUICE_BOX.get())
+                .requires(ModTags.Items.WHISK)
+                .requires(ModItems.JUICE_BOX.get())
+                .requires(Items.APPLE)
+                .unlockedBy(getHasName(Items.APPLE), has(Items.APPLE))
+                .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.JUICE_BOX.get())
+                .requires(Items.PAPER)
+                .unlockedBy(getHasName(Items.PAPER), has(Items.PAPER))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.WOODEN_KNIFE.get(), 1)
