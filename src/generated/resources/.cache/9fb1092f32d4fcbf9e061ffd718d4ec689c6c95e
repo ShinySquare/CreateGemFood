@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-01T16:51:09.574767	Recipes
+// 1.20.1	2025-05-20T14:40:23.687245	Recipes
 31b8cb44525320b632af6dd2cfd0e09e79a220db data/creategemfood/advancements/recipes/combat/amethyst_axe.json
 bcf5850a8caac18627b6898de94d58b568513f9e data/creategemfood/advancements/recipes/combat/amethyst_hoe.json
 2b676dfd7598545ff04e658f0b86340ea098da99 data/creategemfood/advancements/recipes/combat/amethyst_knife.json
@@ -9,6 +9,7 @@ a2078722686c855a6fed221b4b79706edd34d915 data/creategemfood/advancements/recipes
 0e201d45f836125fd13c6face48820a797f00eeb data/creategemfood/advancements/recipes/food/half_bread.json
 6d889deba8ba4556548477905881c64d62834a3b data/creategemfood/advancements/recipes/food/raw_ground_beef.json
 038f2106fe6464996a952e26f8a507255554c7f9 data/creategemfood/advancements/recipes/food/wood_knife.json
+aaa4dc6971537798b7b985886fad8771ff843e29 data/creategemfood/advancements/recipes/misc/apple_juice_box.json
 8f103cfc51712ada7aef6f60249ee02b35e513be data/creategemfood/advancements/recipes/misc/diamond_whisk.json
 e5f5e2ea7cc7f7d260acd735b44e6655d255a8aa data/creategemfood/advancements/recipes/misc/diamond_whiskp.json
 533f116b843b6ac969793bea590fcc042a1c95fe data/creategemfood/advancements/recipes/misc/gold_whisk.json
@@ -16,6 +17,7 @@ e5f5e2ea7cc7f7d260acd735b44e6655d255a8aa data/creategemfood/advancements/recipes
 6644d68d6319356df29db00836efb0e364a87ef1 data/creategemfood/advancements/recipes/misc/iron_rod.json
 c523eb245e051ac8131255ba805f2ad9714373c2 data/creategemfood/advancements/recipes/misc/iron_whisk.json
 497428dce8a53ecb5274ff8f6d03bba112d4b9c1 data/creategemfood/advancements/recipes/misc/iron_whiskp.json
+591d6d5de2b186e8d14bf8450c86d5a6fe0d19cc data/creategemfood/advancements/recipes/misc/juice_box.json
 2988ea1d2af66a8b71ed3be27badd687b04d432f data/creategemfood/advancements/recipes/misc/netherite_whisk.json
 3aac4bcf14ae7e454cb1a7495ceae3d37e496662 data/creategemfood/advancements/recipes/misc/netherite_whiskp.json
 2029fa4687cfd21e709f44d69ca8c04745f74b0b data/creategemfood/advancements/recipes/misc/sapphire.json
@@ -39,6 +41,7 @@ ac1b258888a89129c3a47e791f189ac2b85f4131 data/creategemfood/recipes/amethyst_pic
 75a036aa599349981f17bddcf0de32faa0ad1e9a data/creategemfood/recipes/amethyst_shovel.json
 5dd1996bdf3fa67e390ff3866b3d80994d680bdf data/creategemfood/recipes/amethyst_sword.json
 281c14852e9cbe04a8d476e4ac29f5c05df60e1b data/creategemfood/recipes/amethyst_whisk.json
+dce0d4e7243b4cae9354e910c93f24bd2c959250 data/creategemfood/recipes/apple_juice_box.json
 e30e579c0f99121632c6ca401ecc950c006740f9 data/creategemfood/recipes/diamond_whisk.json
 e236e93de0c94fd73648fbb35a0d15f57f5b1a02 data/creategemfood/recipes/diamond_whiskp.json
 3db702052ac44c18ed0a890961c1325bcfe2b584 data/creategemfood/recipes/gold_whisk.json
@@ -47,6 +50,7 @@ d0d3610eed62fd49c148abaac8d9b754104081db data/creategemfood/recipes/gold_whiskp.
 1540df7fdca72def6a10a15e820c1e3dd8eaf7fa data/creategemfood/recipes/iron_rod.json
 cf4f75164e9b6674d308b9e852d7a100436255b7 data/creategemfood/recipes/iron_whisk.json
 1f02b3d08bddd6d43cebbd97089715962ba8b87f data/creategemfood/recipes/iron_whiskp.json
+9dd7954e030ad59b71eeb48c6f872e7bbfc0ae51 data/creategemfood/recipes/juice_box.json
 c1709d91837dc3ed1d8ee9e5f741951c8d3f86bf data/creategemfood/recipes/netherite_whisk.json
 75994582a4de2063646276e3eeb63849fcda875d data/creategemfood/recipes/netherite_whiskp.json
 31d55fd8fc054473a7cf2b11ac4c862053d7b642 data/creategemfood/recipes/raw_ground_beef.json

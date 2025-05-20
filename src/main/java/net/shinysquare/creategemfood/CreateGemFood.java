@@ -70,7 +70,7 @@ public class CreateGemFood
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            LOGGER.info("Welcome to Create Gems & Food")
+            LOGGER.info("Welcome to Create Gems & Food!");
         }
     }
 }

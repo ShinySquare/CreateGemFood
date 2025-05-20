@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "creategemfood:whisk"
+    },
+    {
+      "item": "creategemfood:juice_box"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "result": {
+    "item": "creategemfood:apple_juice_box"
+  }
+}

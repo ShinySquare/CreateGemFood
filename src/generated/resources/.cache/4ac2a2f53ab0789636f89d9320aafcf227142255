@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-02T10:27:40.553026	Item Models: creategemfood
+// 1.20.1	2025-05-20T14:40:23.681924	Item Models: creategemfood
 5a29651921a42f0eda27a2b7baaf1b9127ffd9c3 assets/creategemfood/models/item/abstruse_mechanism.json
 0e9488d16d04527d04a15e87b6214460912dadd4 assets/creategemfood/models/item/amethyst_axe.json
 7ccfc9f1ddf060d8fbe73b100adc0a340696570e assets/creategemfood/models/item/amethyst_hoe.json
@@ -34,6 +34,7 @@ b69922e5f4dd6cc0433fea0b8f754f340c9fe16e assets/creategemfood/models/item/incomp
 ba18678f36a784544be2dd5a06a5b0e57502fb67 assets/creategemfood/models/item/iron_rod.json
 c036b4d4d42fafe4bb411a29d8dbc0ff1e4c0bd9 assets/creategemfood/models/item/iron_whisk.json
 ac0ad35d4627217fe3260d74b13e3d98fba7c30f assets/creategemfood/models/item/iron_whiskp.json
+f9087e40b59351978a6e1c0523e480f7fb670c02 assets/creategemfood/models/item/juice_box.json
 b5ae3bca8e564ba6972c781e692d44c13b961357 assets/creategemfood/models/item/mango.json
 411bcc64185d5fe630b9b434f2aec7abb53a13ad assets/creategemfood/models/item/metal_detector.json
 1d8d36f81999f977e04bf4aa17f1b129971d59c0 assets/creategemfood/models/item/netherite_whisk.json

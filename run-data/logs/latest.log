@@ -1,46 +1,46 @@
-[03May2025 15:25:24.599] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /Users/lukeyan/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, creategemfood, --all, --output, /Users/lukeyan/Downloads/CreateGemFood/src/generated/resources, --existing, /Users/lukeyan/Downloads/CreateGemFood/src/main/resources]
-[03May2025 15:25:24.618] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Mac OS X arch x86_64 version 12.6.3
-[03May2025 15:25:27.031] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[03May2025 15:25:27.948] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/lukeyan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23121!/ Service=ModLauncher Env=CLIENT
-[03May2025 15:25:30.880] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.3.22/9a1d96e9108940786d846c8cc0dac07100e79f56/javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[03May2025 15:25:30.885] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.3.22/2529f2c27d8f8a63ee54efc81fdfc3cea2d43c8/lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[03May2025 15:25:30.894] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.3.22/2de14adfd8715f1956007499d8d75c6a4e6fa872/mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[03May2025 15:25:30.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.3.22/cf26aeb747e0d323f8eed9b00ebfb783282d5837/fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
-[03May2025 15:25:32.317] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[03May2025 15:25:53.285] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[03May2025 15:25:53.377] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /Users/lukeyan/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, creategemfood, --all, --output, /Users/lukeyan/Downloads/CreateGemFood/src/generated/resources, --existing, /Users/lukeyan/Downloads/CreateGemFood/src/main/resources]
-[03May2025 15:25:56.929] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using /Users/lukeyan/Downloads/CreateGemFood/build/createSrgToMcp/output.srg
-[03May2025 15:25:56.939] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using /Users/lukeyan/Downloads/CreateGemFood/build/createSrgToMcp/output.srg
-[03May2025 15:26:07.534] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [creategemfood]
-[03May2025 15:26:43.672] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
-[03May2025 15:26:43.674] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
-[03May2025 15:26:44.609] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[03May2025 15:26:45.507] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[03May2025 15:26:45.534] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 8.202 ms
-[03May2025 15:27:08.990] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lukeyan/Downloads/CreateGemFood/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.22_mapped_official_1.20.1/forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/assets/.mcassetsroot' uses unexpected schema
-[03May2025 15:27:08.996] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lukeyan/Downloads/CreateGemFood/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.22_mapped_official_1.20.1/forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/data/.mcassetsroot' uses unexpected schema
-[03May2025 15:27:09.098] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /Users/lukeyan/Downloads/CreateGemFood/src/main/resources
-[03May2025 15:27:09.142] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /Users/lukeyan/Downloads/CreateGemFood/src/main/resources
-[03May2025 15:27:10.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: mixing
-[03May2025 15:27:10.493] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: mixing registered 1 recipe
-[03May2025 15:27:10.496] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: mixing finished after 22 ms
-[03May2025 15:27:10.496] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: pressing
-[03May2025 15:27:10.497] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: pressing registered 2 recipes
-[03May2025 15:27:10.498] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: pressing finished after 1 ms
-[03May2025 15:27:10.498] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[03May2025 15:27:10.575] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 76 ms
-[03May2025 15:27:10.575] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: cutting
-[03May2025 15:27:10.576] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: cutting registered 2 recipes
-[03May2025 15:27:10.577] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: cutting finished after 1 ms
-[03May2025 15:27:10.577] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[03May2025 15:27:10.693] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 116 ms
-[03May2025 15:27:10.694] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: creategemfood
-[03May2025 15:27:11.174] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: creategemfood finished after 479 ms
-[03May2025 15:27:11.175] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: creategemfood
-[03May2025 15:27:11.237] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: creategemfood finished after 62 ms
-[03May2025 15:27:11.239] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id creategemfood
-[03May2025 15:27:11.288] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id creategemfood finished after 48 ms
-[03May2025 15:27:11.289] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id creategemfood
-[03May2025 15:27:11.292] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id creategemfood finished after 2 ms
-[03May2025 15:27:11.292] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 820 ms
-[03May2025 15:27:11.312] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 233, old count: 233, new count: 234, removed stale: 0, written: 0
+[20May2025 14:39:48.259] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /Users/lukeyan/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, creategemfood, --all, --output, /Users/lukeyan/Downloads/CreateGemFood/src/generated/resources, --existing, /Users/lukeyan/Downloads/CreateGemFood/src/main/resources]
+[20May2025 14:39:48.283] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Mac OS X arch x86_64 version 12.6.3
+[20May2025 14:39:48.502] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[20May2025 14:39:48.719] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/lukeyan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23121!/ Service=ModLauncher Env=CLIENT
+[20May2025 14:39:49.524] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.3.22/9a1d96e9108940786d846c8cc0dac07100e79f56/javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[20May2025 14:39:49.528] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.3.22/2529f2c27d8f8a63ee54efc81fdfc3cea2d43c8/lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[20May2025 14:39:49.531] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.3.22/2de14adfd8715f1956007499d8d75c6a4e6fa872/mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[20May2025 14:39:49.533] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lukeyan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.3.22/cf26aeb747e0d323f8eed9b00ebfb783282d5837/fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
+[20May2025 14:39:49.932] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20May2025 14:39:54.968] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20May2025 14:39:54.991] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /Users/lukeyan/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, creategemfood, --all, --output, /Users/lukeyan/Downloads/CreateGemFood/src/generated/resources, --existing, /Users/lukeyan/Downloads/CreateGemFood/src/main/resources]
+[20May2025 14:39:56.080] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using /Users/lukeyan/Downloads/CreateGemFood/build/createSrgToMcp/output.srg
+[20May2025 14:39:56.088] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using /Users/lukeyan/Downloads/CreateGemFood/build/createSrgToMcp/output.srg
+[20May2025 14:39:58.376] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [creategemfood]
+[20May2025 14:40:10.154] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
+[20May2025 14:40:10.157] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
+[20May2025 14:40:10.920] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[20May2025 14:40:11.465] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[20May2025 14:40:11.477] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.384 ms
+[20May2025 14:40:22.224] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lukeyan/Downloads/CreateGemFood/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.22_mapped_official_1.20.1/forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/assets/.mcassetsroot' uses unexpected schema
+[20May2025 14:40:22.226] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lukeyan/Downloads/CreateGemFood/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.22_mapped_official_1.20.1/forge-1.20.1-47.3.22_mapped_official_1.20.1.jar%23184!/data/.mcassetsroot' uses unexpected schema
+[20May2025 14:40:22.250] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /Users/lukeyan/Downloads/CreateGemFood/src/main/resources
+[20May2025 14:40:22.270] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /Users/lukeyan/Downloads/CreateGemFood/src/main/resources
+[20May2025 14:40:22.979] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: mixing
+[20May2025 14:40:22.997] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: mixing registered 1 recipe
+[20May2025 14:40:23.000] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: mixing finished after 20 ms
+[20May2025 14:40:23.000] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: pressing
+[20May2025 14:40:23.002] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: pressing registered 2 recipes
+[20May2025 14:40:23.003] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: pressing finished after 2 ms
+[20May2025 14:40:23.003] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[20May2025 14:40:23.064] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 60 ms
+[20May2025 14:40:23.065] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Create's Processing Recipes: cutting
+[20May2025 14:40:23.066] [main/INFO] [com.simibubi.create.Create/]: Create's Processing Recipes: cutting registered 2 recipes
+[20May2025 14:40:23.068] [main/INFO] [net.minecraft.data.DataGenerator/]: Create's Processing Recipes: cutting finished after 3 ms
+[20May2025 14:40:23.069] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[20May2025 14:40:23.175] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 106 ms
+[20May2025 14:40:23.176] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: creategemfood
+[20May2025 14:40:23.449] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: creategemfood finished after 272 ms
+[20May2025 14:40:23.449] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: creategemfood
+[20May2025 14:40:23.517] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: creategemfood finished after 67 ms
+[20May2025 14:40:23.518] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id creategemfood
+[20May2025 14:40:23.662] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id creategemfood finished after 143 ms
+[20May2025 14:40:23.663] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id creategemfood
+[20May2025 14:40:23.678] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id creategemfood finished after 14 ms
+[20May2025 14:40:23.679] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 700 ms
+[20May2025 14:40:23.703] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 238, old count: 233, new count: 239, removed stale: 0, written: 5

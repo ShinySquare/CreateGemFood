@@ -137,7 +137,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.APPLE), has(Items.APPLE))
                 .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.JUICE_BOX.get())
-                .requires(Items.PAPER)
+                .requires(Items.PAPER, 8)
                 .unlockedBy(getHasName(Items.PAPER), has(Items.PAPER))
                 .save(pWriter);
 
